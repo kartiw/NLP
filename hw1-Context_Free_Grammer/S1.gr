@@ -1,0 +1,396 @@
+# The start symbol is TOP.
+
+# These two rules are required; please do not change these weights!
+80	TOP	S1
+20	TOP	S2
+
+# This is a very, very, very simple grammar to get you started.
+1   S1   NP VP
+1   S1   NP _VBD
+1   S1   NP _VP
+1	S1	 VP  _VP
+1   S1   _VB _VB
+1   S1   _Number
+1   S1  Qst  Qmark
+1   S1   _NP
+1	S1 _Proper Punc
+1	S1 _Proper _Wh_pro
+1	S1   _CC_either
+1	S1   _CC_neither
+
+1   _VP  VP
+1   _VP  VP Punc
+1   _VP  _VerbT Punc
+
+
+20  NP   Det Nbar
+1   NP   Proper
+10   NP   _Proper_CC _Proper
+1   NP  Nbar
+1   NP  _Det
+1   NP  _Det Nbar
+1   NP  Nbar  NNP
+1   NP  Number Nouns
+1   NP  Number Noun
+
+10  Nbar Noun
+1  Nbar Noun Punc
+1   Nbar Nbar PP
+1   Nbar  NNP
+1   Nbar  _Det
+1   Nbar  Det
+
+1   PP   _Prep NP
+1   PP   _Prep Pause_VP
+1	PP	TO NP
+
+1   VP   VerbT NP
+1	VP	VerbT ADJP
+1	VP	VB PP
+1	VP	VBD PP
+1	VP	VBP PP
+1	VP	VBG PP
+1	VP	VBN VP
+1	VP	VBD VP
+1	VP	VB VP
+1	VP	MD VP
+
+
+1	ADJP  Adj
+
+1	Qst	_Aux
+1  Qst Qword _Aux
+1  Qst	_WRB
+1   Qst  _VBP 
+
+1   _WRB	_Aux	
+1	_Aux	Aux  Punc
+1	_Aux	Aux  _NNP
+1	_Aux	Aux  _Nouns
+1	_Aux	Aux  _Proper
+
+1	_Noun	Noun VB
+1	_Noun	Noun Punc
+1	_Noun	_Det Noun
+
+1	_Nouns	Nouns VB
+1	_Nouns	Nouns Punc
+
+
+1	_Proper Proper
+1	_Proper Proper Punc
+1	_Proper Proper VBP	
+1	_Proper Proper _VB
+1	_Proper Proper _VBG
+1	_Proper Proper _VBS
+1	_Proper Proper _VBP
+1	_Proper Proper _VBN
+1	_Proper Proper _VBD
+1	_Proper Proper _VerbT
+1	_Proper Proper _MD
+1	_Proper Proper _Aux
+1	_Proper Pro _CC
+1	_Proper Pro _VB
+1	_Proper Proper Pause
+1	_Proper Proper _VBP_Prep
+
+1	_VB VB
+1	_VB VB Punc
+1	_VB _VB _Prep
+1	_VB VB _Proper
+1   _VB VB _Det
+1   _VB VB _TO
+1   _VB VB VB
+1   _VB _VB VBN
+1   _VB _VB VBG
+1   _VB _VB VBP
+5   _VB VB VBD
+1   _VB _VB _CC
+1   _VB _VB _CONJ
+5   _VB VB _ADV
+1	_VB VB _Poss_pron
+
+
+1   _VBD VBD
+1	_VBD VBD Punc
+1   _VBD VBD _VBN
+1   _VBD VBD _Prep
+1   _VBD VBD _TO
+1   _VBD _VBD _CC
+1   _VBD _VBD _CONJ
+5   _VBD VBD _ADV
+1	_VBD VBD _Poss_pron
+
+
+1   _VBP VBP
+1	_VBP VBP Punc
+1	_VBP VBP _Prep
+1   _VBP VBP _Proper
+1   _VBP VBP _TO
+1   _VBP _VBP _CC
+1   _VBP _VBP _CONJ
+5   _VBP VBP _ADV
+5	_VBP VBP VBG 
+1	_VBP VBP _Poss_pron
+
+1   _VBS VBS
+1	_VBS VBS Punc
+1	_VB VBS _Prep
+1   _VBS VBS _Proper
+1   _VBS VBS _TO
+1   _VBS _VBS _CC
+1   _VBS _VBS _CONJ
+5   _VBS VBS _ADV
+1	_VBS VBS _Poss_pron
+
+1   _VBG VBG
+1	_VBG VBG Punc
+1   _VBG VBG _Proper
+1	_VBG VBG _Prep
+1   _VBG VBG _Prep
+1   _VBG VBG _TO
+1   _VBG _VBG _CC
+1   _VBG _VBG _CONJ
+5   _VBG VBG _ADV
+1	_VBG VBG _Poss_pron
+
+1	_VBN VBN
+1	_VBN VBN Punc
+1	_VBN VBN _Prep
+1	_VBN VBN _TO
+1   _VBN _VBN _CC
+1   _VBN _VBN _CONJ
+5   _VBN VBN _ADV
+5	_VBN Proper VBN
+1	_VBN VBN _Poss_pron
+
+1   _ADV ADV
+1   _ADV ADV Punc
+
+1   _VerbT  VerbT
+1   _VerbT  VerbT Punc
+1   _VerbT  VerbT  Proper
+1   _VerbT  _Noun  VerbT
+
+1   _NP  NP VP
+1   _NP  NP VB
+1   _NP  NP VBN
+1   _NP  NP VBD
+1   _NP  NP VPP
+1   _NP  NP _Det
+
+1   _Prep  Prep
+1   _Prep  _Proper
+1   _Prep  Prep _Det
+1   _Prep  Prep _NNP
+1   _Prep  Prep _Proper
+1   _Prep  Prep _Poss_pron
+1   _Prep  Prep _Adj
+1   _Prep  Prep _Number
+
+1   _NNP  NNP
+1   _NNP  NNP  _VB
+
+1   _Det  Det
+5   _Det  Det  _Noun
+1   _Det  Det  _NNP
+1   _Det  Det  _Adj
+1   _Det  Det  NP_VBD
+1   _Det  Det  _VB
+1   _Det  Det  _VBD
+1   _Det  Det  _VBG
+1   _Det  Det  _VBN
+1   _Det  Det  _VBS
+
+
+1   _Adj Adj  _Nouns
+1   _Adj Adj  Nouns
+1   _Adj Adj  _Noun
+1   _Adj Adj  Noun
+1   _Adj Adj  _Pause
+
+1   _Poss_pron Poss_pron _Nouns
+1   _Poss_pron Poss_pron Nouns
+1   _Poss_pron Poss_pron _Noun
+1   _Poss_pron Poss_pron Noun
+1   _Poss_pron Poss_pron _Pause
+
+1   _Number Number _Nouns
+1   _Number Number Nouns
+1   _Number Number _Noun
+1   _Number Number Noun
+1   _Number Number _Pause
+
+
+1   _Pause _Number Pause
+1   _Pause _Det Pause
+1	_Proper_Det _Proper _Det
+
+1   _TO  TO NNP
+1   _TO  TO _NP
+
+1   _MD  MD _VB
+
+
+1   _Wh_pro Wh_pro _VBS
+1   _Wh_pro Wh_pro _NP
+1   _Wh_pro Wh_pro _VerbT
+1   _Wh_pro Wh_pro _VB
+1	_Proper_CC Proper CC
+
+1   _CC CC _VB
+1   _CC CC _VBD
+1   _CC CC _VBN
+1   _CC CC _VBB
+1   _CC CC _VBG
+1   _CC CC _VBS
+1   _CC CC _VBP
+1   _CC CC _NNP
+1   _CC CC _NP
+1   _CC CC _Noun
+1   _CC CC NNP
+1   _CC CC NP
+1   _CC CC Noun
+
+
+1   _CC_neither  CC_neither _CC_
+1   _CC_neither  CC_neither _CC_balance_neither
+1   _CC_balance_neither  _Proper  _CC_end_neither
+1   _CC_end_neither CC_nor _Proper 
+1	_CC_neither CC_neither
+
+1   _CC_either  CC_either _CC_balance_either
+1   _CC_balance_either  _Proper  _CC_end_either
+1   _CC_end_either CC_or _Proper 
+1	_CC_either CC_either 
+
+1	_CONJ CONJ _Proper
+1	_CONJ CONJ _Nouns
+1	_CONJ CONJ _Noun
+1	_CONJ CONJ _NNP
+
+1   Pause_VP _Pause _VP
+1	_VBP_Prep _VBP _Prep
+1   NP_VBD NP _VBD
+1   VBN_Det _VBN _Det
+
+1   _Wh_pro_ _Wh_pro Pause
+1   _Wh_pro_ _Wh_pro Punc
+1   _Wh_pro_Proper _Wh_pro_ _Proper
+
+#test!
+1	S1 NP
+1	S1 _NNP
+1	S1 _Det
+1	S1 _Proper
+1	S1 _VB
+1	S1 _MD
+1	S1 _VBD
+1	S1 _VBP
+1	S1 _VBS
+1	S1 _VBN
+1	S1 _VerbT
+1	S1 _CC_balance_either
+1	S1 _Prep
+1	S1 _Wh_pro
+1	S1 _Wh_pro_
+1	S1 _Wh_pro_Proper
+1	S1 PP
+1	S1 VP
+1	S1 _CONJ
+1	S1 _VBP_Prep
+1	S1 _Poss_pron	
+1	S1 _Proper_Det
+
+1	_NNP _CC 
+1   Proper PRP
+
+1	S1 Pause_VP
+1	S1 _Proper_CC
+1   S1 VBN_Det
+
+#==================================================
+20	NP	NP PP
+
+22	NP	Det Adj_Nbar
+1   Adj_Nbar Adj Nbar
+
+20	Nbar	NNP
+
+1	VP	VBD VP
+1	VP	VBD PP
+22	NP	Det AdjS_Nbar
+1   AdjS_Nbar  AdjS  Nbar
+1	PP	TO NP
+20	Nbar	Nouns
+
+22	NP	Number Nouns
+1	VP	VBP PP
+
+
+1	VP	MD VP
+1	VP	VB VP
+1	VP	VBN
+
+
+1	VP	VBG PP
+1	VP	VBN VP
+1	NP	Number NP
+1	NP	Adj Nbar
+1	Nbar	Nouns
+
+1	VP	VBG NP
+
+
+1	Nbar	NNPS
+1	VP	VB ADVP
+1	ADVP	ADV ADV
+
+
+1	NP	Proper CC_Proper
+1   CC_Proper CC Proper
+1	VP	VBP ADVP_PP
+1   ADVP_PP ADVP PP
+1	ADVP	ADV
+
+1	NP	Pro
+1	VP	VBS S1
+1	S1	VP
+1	VP	VB NP_PP
+1   NP_PP NP PP
+1	NP	Noun
+1	VP	TO VP
+
+
+1	S1	S1 VP_Punc
+1   VP_Punc VP Punc
+1	VP	VerbT ADV_ADJP
+1   ADV_ADJP ADV ADJP
+1	ADJP	Adj
+
+
+1	Aux	NP VP_Punc
+1   VP_Punc  VP Punc
+1	NP	Nbar
+1	VP	VB
+
+
+1	S1	NP VP_Punc
+1   VP_Punc  VP Punc
+
+1	VP	VerbT NP
+
+20	NP	Det Nbar
+
+1	NP	Proper
+
+20	Nbar	Noun
+1	Nbar	Nbar PP
+
+1	PP	Prep NP
+
+
+
+#==================================================
+
+

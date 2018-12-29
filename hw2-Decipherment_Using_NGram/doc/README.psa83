@@ -1,0 +1,19 @@
+I contributed to this assignment in the following parts, note that all the parts below are 
+done by the whole team:
+
+- Implmented baseline beam search algorithm
+- Read An Exact A* Method for Deciphering Letter-Substitution Ciphers
+- Read Beam Search for Solving Substitution Ciphers
+- Read Improved Decipherment of Homophonic Ciphers
+- Read Solving Substitution Ciphers with Combined Language Models
+- Read Decipherment of Substitution Ciphers with Neural Language Models
+- Improved the extension order by using a weighted frequency based approach that orders 
+  the symbols based on the maximum number of partial decipherment present
+- Tuned weights to get better result
+- Attempted to improve the extension order by choosing the characters based on the longest  deciphered subsequence
+- Implemented a method to assign variable ext_limits to different letters depending on their 
+  frequency distribution in the english language
+- Implemented the extension order based on the reverse observed order of symbols in ciphertext to 
+  give a better chance to less likely 
+  characters
+- Tuned n_limits and n_keeps to get better result

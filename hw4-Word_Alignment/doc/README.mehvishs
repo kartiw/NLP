@@ -1,0 +1,14 @@
+I contributed to the assignment in the following parts, and all parts below
+have been done by the whole team:
+1. Read and implemented algorithm's based on the "Word Alignment and the
+Expectation-Maximization Algorithm" by Adam Lopez
+2. Read and understood the tutorial titled "A Statistical MT Tutorial Workbook"
+by Kevin Knight
+3. Read and implemented adjustments based on the "Improving IBM Word-Alignment
+Model 1" by Robert C. Moore.
+4. Tried to implement adding artificial nulls based on the paper mentioned in
+item 3.
+5. Implemented a smoothing parameter for alignment based on the paper mentioned
+in item 3.
+6. Experimented with the alignment threshold to improve accuracy.
+7. Attempted to combine methods in order to reduce the AER.

@@ -1,0 +1,13 @@
+I contributed to this assignment in the following parts, note that all the parts below are done by the whole team
+
+- Deisgned there approaches to generate grammar files.
+- Created and designed different tags for words in allowed word.
+- Used nltk to assign tag for all allowed word.
+- Replaced all the words tag in devset.trees.
+- For all sample sentences, manually mapped all words with tags and designed the best tree fits their content and generated rules in S1.gr.
+- Wrote functions to found the start word in a sentence and generated rules in S2.gr.
+- Wrote functions to generate grammar used eCNF form in nltk.
+- Wrote functions to improve S2.gr base on the order words in a sentence.
+- Took samples of the grammar files and checked the quality, manually improve the grammar files.
+- Debugged all functions to make sure it is able to parse the tree correctly.
+- Tuned weight in S1.gr S2.gr S3.gr to improve the entropy

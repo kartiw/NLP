@@ -1,0 +1,6126 @@
+1    S2       _Det
+#1    S2       _Misc
+1    S2       _Noun
+1    S2       _Prep
+1    S2       _Proper
+1    S2       _VerbT
+# empty rules are not allowed
+# 1  S2
+1    _Det     Det
+1    _Det     Det _Det
+1    _Det     Det _Misc
+1    _Det     Det _Noun
+1    _Det     Det _Prep
+1    _Det     Det _Proper
+1    _Det     Det _VerbT
+#1    _Misc    Misc
+#1    _Misc    Misc _Det
+#1    _Misc    Misc _Misc
+#1    _Misc    Misc _Noun
+#1    _Misc    Misc _Prep
+#1    _Misc    Misc _Proper
+#1    _Misc    Misc _VerbT
+1    _Noun    Noun
+1    _Noun    Noun _Det
+1    _Noun    Noun _Misc
+1    _Noun    Noun _Noun
+1    _Noun    Noun _Prep
+1    _Noun    Noun _Proper
+1    _Noun    Noun _VerbT
+1    _Prep    Prep
+1    _Prep    Prep _Det
+1    _Prep    Prep _Misc
+1    _Prep    Prep _Noun
+1    _Prep    Prep _Prep
+1    _Prep    Prep _Proper
+1    _Prep    Prep _VerbT
+1    _Proper  Proper
+1    _Proper  Proper _Det
+1    _Proper  Proper _Misc
+1    _Proper  Proper _Noun
+1    _Proper  Proper _Prep
+1    _Proper  Proper _Proper
+1    _Proper  Proper _VerbT
+1    _VerbT   VerbT
+1    _VerbT   VerbT _Det
+1    _VerbT   VerbT _Misc
+1    _VerbT   VerbT _Noun
+1    _VerbT   VerbT _Prep
+1    _VerbT   VerbT _Proper
+1    _VerbT   VerbT _VerbT
+
+
+#======================================
+1	S2	_Punc
+1	S2	_ADV
+1	S2	_Adj
+1	S2	_AdjS
+1	S2	_Aux
+1	S2	_CC
+1	S2	_Det
+1	S2	_MD
+1	S2	_Misc
+1	S2	_NNP
+1	S2	_NNPS
+1	S2	_Noun
+1	S2	_Nouns
+1	S2	_Number
+1	S2	_Prep
+1	S2	_Pro
+1	S2	_Proper
+1	S2	_TO
+1	S2	_VB
+1	S2	_VBD
+1	S2	_VBG
+1	S2	_VBN
+1	S2	_VBP
+1	S2	_VBS
+1	S2	_VerbT
+1	S2	_WRB
+1	_Punc	Punc
+1	_Punc	Punc _Punc
+1	_Punc	Punc _ADV
+1	_Punc	Punc _Adj
+1	_Punc	Punc _AdjS
+1	_Punc	Punc _Aux
+1	_Punc	Punc _CC
+1	_Punc	Punc _Det
+1	_Punc	Punc _MD
+1	_Punc	Punc _Misc
+1	_Punc	Punc _NNP
+1	_Punc	Punc _NNPS
+1	_Punc	Punc _Noun
+1	_Punc	Punc _Nouns
+1	_Punc	Punc _Number
+1	_Punc	Punc _Prep
+1	_Punc	Punc _Pro
+1	_Punc	Punc _Proper
+1	_Punc	Punc _TO
+1	_Punc	Punc _VB
+1	_Punc	Punc _VBD
+1	_Punc	Punc _VBG
+1	_Punc	Punc _VBN
+1	_Punc	Punc _VBP
+1	_Punc	Punc _VBS
+1	_Punc	Punc _VerbT
+1	_Punc	Punc _WRB
+1	_ADV	ADV
+1	_ADV	ADV _Punc
+1	_ADV	ADV _ADV
+1	_ADV	ADV _Adj
+1	_ADV	ADV _AdjS
+1	_ADV	ADV _Aux
+1	_ADV	ADV _CC
+1	_ADV	ADV _Det
+1	_ADV	ADV _MD
+1	_ADV	ADV _Misc
+1	_ADV	ADV _NNP
+1	_ADV	ADV _NNPS
+1	_ADV	ADV _Noun
+1	_ADV	ADV _Nouns
+1	_ADV	ADV _Number
+1	_ADV	ADV _Prep
+1	_ADV	ADV _Pro
+1	_ADV	ADV _Proper
+1	_ADV	ADV _TO
+1	_ADV	ADV _VB
+1	_ADV	ADV _VBD
+1	_ADV	ADV _VBG
+1	_ADV	ADV _VBN
+1	_ADV	ADV _VBP
+1	_ADV	ADV _VBS
+1	_ADV	ADV _VerbT
+1	_ADV	ADV _WRB
+1	_Adj	Adj
+1	_Adj	Adj _Punc
+1	_Adj	Adj _ADV
+1	_Adj	Adj _Adj
+1	_Adj	Adj _AdjS
+1	_Adj	Adj _Aux
+1	_Adj	Adj _CC
+1	_Adj	Adj _Det
+1	_Adj	Adj _MD
+1	_Adj	Adj _Misc
+1	_Adj	Adj _NNP
+1	_Adj	Adj _NNPS
+1	_Adj	Adj _Noun
+1	_Adj	Adj _Nouns
+1	_Adj	Adj _Number
+1	_Adj	Adj _Prep
+1	_Adj	Adj _Pro
+1	_Adj	Adj _Proper
+1	_Adj	Adj _TO
+1	_Adj	Adj _VB
+1	_Adj	Adj _VBD
+1	_Adj	Adj _VBG
+1	_Adj	Adj _VBN
+1	_Adj	Adj _VBP
+1	_Adj	Adj _VBS
+1	_Adj	Adj _VerbT
+1	_Adj	Adj _WRB
+1	_AdjS	AdjS
+1	_AdjS	AdjS _Punc
+1	_AdjS	AdjS _ADV
+1	_AdjS	AdjS _Adj
+1	_AdjS	AdjS _AdjS
+1	_AdjS	AdjS _Aux
+1	_AdjS	AdjS _CC
+1	_AdjS	AdjS _Det
+1	_AdjS	AdjS _MD
+1	_AdjS	AdjS _Misc
+1	_AdjS	AdjS _NNP
+1	_AdjS	AdjS _NNPS
+1	_AdjS	AdjS _Noun
+1	_AdjS	AdjS _Nouns
+1	_AdjS	AdjS _Number
+1	_AdjS	AdjS _Prep
+1	_AdjS	AdjS _Pro
+1	_AdjS	AdjS _Proper
+1	_AdjS	AdjS _TO
+1	_AdjS	AdjS _VB
+1	_AdjS	AdjS _VBD
+1	_AdjS	AdjS _VBG
+1	_AdjS	AdjS _VBN
+1	_AdjS	AdjS _VBP
+1	_AdjS	AdjS _VBS
+1	_AdjS	AdjS _VerbT
+1	_AdjS	AdjS _WRB
+1	_Aux	Aux
+1	_Aux	Aux _Punc
+1	_Aux	Aux _ADV
+1	_Aux	Aux _Adj
+1	_Aux	Aux _AdjS
+1	_Aux	Aux _Aux
+1	_Aux	Aux _CC
+1	_Aux	Aux _Det
+1	_Aux	Aux _MD
+1	_Aux	Aux _Misc
+1	_Aux	Aux _NNP
+1	_Aux	Aux _NNPS
+1	_Aux	Aux _Noun
+1	_Aux	Aux _Nouns
+1	_Aux	Aux _Number
+1	_Aux	Aux _Prep
+1	_Aux	Aux _Pro
+1	_Aux	Aux _Proper
+1	_Aux	Aux _TO
+1	_Aux	Aux _VB
+1	_Aux	Aux _VBD
+1	_Aux	Aux _VBG
+1	_Aux	Aux _VBN
+1	_Aux	Aux _VBP
+1	_Aux	Aux _VBS
+1	_Aux	Aux _VerbT
+1	_Aux	Aux _WRB
+1	_CC	CC
+1	_CC	CC _Punc
+1	_CC	CC _ADV
+1	_CC	CC _Adj
+1	_CC	CC _AdjS
+1	_CC	CC _Aux
+1	_CC	CC _CC
+1	_CC	CC _Det
+1	_CC	CC _MD
+1	_CC	CC _Misc
+1	_CC	CC _NNP
+1	_CC	CC _NNPS
+1	_CC	CC _Noun
+1	_CC	CC _Nouns
+1	_CC	CC _Number
+1	_CC	CC _Prep
+1	_CC	CC _Pro
+1	_CC	CC _Proper
+1	_CC	CC _TO
+1	_CC	CC _VB
+1	_CC	CC _VBD
+1	_CC	CC _VBG
+1	_CC	CC _VBN
+1	_CC	CC _VBP
+1	_CC	CC _VBS
+1	_CC	CC _VerbT
+1	_CC	CC _WRB
+1	_Det	Det
+1	_Det	Det _Punc
+1	_Det	Det _ADV
+1	_Det	Det _Adj
+1	_Det	Det _AdjS
+1	_Det	Det _Aux
+1	_Det	Det _CC
+1	_Det	Det _Det
+1	_Det	Det _MD
+1	_Det	Det _Misc
+1	_Det	Det _NNP
+1	_Det	Det _NNPS
+1	_Det	Det _Noun
+1	_Det	Det _Nouns
+1	_Det	Det _Number
+1	_Det	Det _Prep
+1	_Det	Det _Pro
+1	_Det	Det _Proper
+1	_Det	Det _TO
+1	_Det	Det _VB
+1	_Det	Det _VBD
+1	_Det	Det _VBG
+1	_Det	Det _VBN
+1	_Det	Det _VBP
+1	_Det	Det _VBS
+1	_Det	Det _VerbT
+1	_Det	Det _WRB
+1	_MD	MD
+1	_MD	MD _Punc
+1	_MD	MD _ADV
+1	_MD	MD _Adj
+1	_MD	MD _AdjS
+1	_MD	MD _Aux
+1	_MD	MD _CC
+1	_MD	MD _Det
+1	_MD	MD _MD
+1	_MD	MD _Misc
+1	_MD	MD _NNP
+1	_MD	MD _NNPS
+1	_MD	MD _Noun
+1	_MD	MD _Nouns
+1	_MD	MD _Number
+1	_MD	MD _Prep
+1	_MD	MD _Pro
+1	_MD	MD _Proper
+1	_MD	MD _TO
+1	_MD	MD _VB
+1	_MD	MD _VBD
+1	_MD	MD _VBG
+1	_MD	MD _VBN
+1	_MD	MD _VBP
+1	_MD	MD _VBS
+1	_MD	MD _VerbT
+1	_MD	MD _WRB
+1	_Misc	Misc
+1	_Misc	Misc _Punc
+1	_Misc	Misc _ADV
+1	_Misc	Misc _Adj
+1	_Misc	Misc _AdjS
+1	_Misc	Misc _Aux
+1	_Misc	Misc _CC
+1	_Misc	Misc _Det
+1	_Misc	Misc _MD
+1	_Misc	Misc _Misc
+1	_Misc	Misc _NNP
+1	_Misc	Misc _NNPS
+1	_Misc	Misc _Noun
+1	_Misc	Misc _Nouns
+1	_Misc	Misc _Number
+1	_Misc	Misc _Prep
+1	_Misc	Misc _Pro
+1	_Misc	Misc _Proper
+1	_Misc	Misc _TO
+1	_Misc	Misc _VB
+1	_Misc	Misc _VBD
+1	_Misc	Misc _VBG
+1	_Misc	Misc _VBN
+1	_Misc	Misc _VBP
+1	_Misc	Misc _VBS
+1	_Misc	Misc _VerbT
+1	_Misc	Misc _WRB
+1	_NNP	NNP
+1	_NNP	NNP _Punc
+1	_NNP	NNP _ADV
+1	_NNP	NNP _Adj
+1	_NNP	NNP _AdjS
+1	_NNP	NNP _Aux
+1	_NNP	NNP _CC
+1	_NNP	NNP _Det
+1	_NNP	NNP _MD
+1	_NNP	NNP _Misc
+1	_NNP	NNP _NNP
+1	_NNP	NNP _NNPS
+1	_NNP	NNP _Noun
+1	_NNP	NNP _Nouns
+1	_NNP	NNP _Number
+1	_NNP	NNP _Prep
+1	_NNP	NNP _Pro
+1	_NNP	NNP _Proper
+1	_NNP	NNP _TO
+1	_NNP	NNP _VB
+1	_NNP	NNP _VBD
+1	_NNP	NNP _VBG
+1	_NNP	NNP _VBN
+1	_NNP	NNP _VBP
+1	_NNP	NNP _VBS
+1	_NNP	NNP _VerbT
+1	_NNP	NNP _WRB
+1	_NNPS	NNPS
+1	_NNPS	NNPS _Punc
+1	_NNPS	NNPS _ADV
+1	_NNPS	NNPS _Adj
+1	_NNPS	NNPS _AdjS
+1	_NNPS	NNPS _Aux
+1	_NNPS	NNPS _CC
+1	_NNPS	NNPS _Det
+1	_NNPS	NNPS _MD
+1	_NNPS	NNPS _Misc
+1	_NNPS	NNPS _NNP
+1	_NNPS	NNPS _NNPS
+1	_NNPS	NNPS _Noun
+1	_NNPS	NNPS _Nouns
+1	_NNPS	NNPS _Number
+1	_NNPS	NNPS _Prep
+1	_NNPS	NNPS _Pro
+1	_NNPS	NNPS _Proper
+1	_NNPS	NNPS _TO
+1	_NNPS	NNPS _VB
+1	_NNPS	NNPS _VBD
+1	_NNPS	NNPS _VBG
+1	_NNPS	NNPS _VBN
+1	_NNPS	NNPS _VBP
+1	_NNPS	NNPS _VBS
+1	_NNPS	NNPS _VerbT
+1	_NNPS	NNPS _WRB
+1	_Noun	Noun
+1	_Noun	Noun _Punc
+1	_Noun	Noun _ADV
+1	_Noun	Noun _Adj
+1	_Noun	Noun _AdjS
+1	_Noun	Noun _Aux
+1	_Noun	Noun _CC
+1	_Noun	Noun _Det
+1	_Noun	Noun _MD
+1	_Noun	Noun _Misc
+1	_Noun	Noun _NNP
+1	_Noun	Noun _NNPS
+1	_Noun	Noun _Noun
+1	_Noun	Noun _Nouns
+1	_Noun	Noun _Number
+1	_Noun	Noun _Prep
+1	_Noun	Noun _Pro
+1	_Noun	Noun _Proper
+1	_Noun	Noun _TO
+1	_Noun	Noun _VB
+1	_Noun	Noun _VBD
+1	_Noun	Noun _VBG
+1	_Noun	Noun _VBN
+1	_Noun	Noun _VBP
+1	_Noun	Noun _VBS
+1	_Noun	Noun _VerbT
+1	_Noun	Noun _WRB
+1	_Nouns	Nouns
+1	_Nouns	Nouns _Punc
+1	_Nouns	Nouns _ADV
+1	_Nouns	Nouns _Adj
+1	_Nouns	Nouns _AdjS
+1	_Nouns	Nouns _Aux
+1	_Nouns	Nouns _CC
+1	_Nouns	Nouns _Det
+1	_Nouns	Nouns _MD
+1	_Nouns	Nouns _Misc
+1	_Nouns	Nouns _NNP
+1	_Nouns	Nouns _NNPS
+1	_Nouns	Nouns _Noun
+1	_Nouns	Nouns _Nouns
+1	_Nouns	Nouns _Number
+1	_Nouns	Nouns _Prep
+1	_Nouns	Nouns _Pro
+1	_Nouns	Nouns _Proper
+1	_Nouns	Nouns _TO
+1	_Nouns	Nouns _VB
+1	_Nouns	Nouns _VBD
+1	_Nouns	Nouns _VBG
+1	_Nouns	Nouns _VBN
+1	_Nouns	Nouns _VBP
+1	_Nouns	Nouns _VBS
+1	_Nouns	Nouns _VerbT
+1	_Nouns	Nouns _WRB
+1	_Number	Number
+1	_Number	Number _Punc
+1	_Number	Number _ADV
+1	_Number	Number _Adj
+1	_Number	Number _AdjS
+1	_Number	Number _Aux
+1	_Number	Number _CC
+1	_Number	Number _Det
+1	_Number	Number _MD
+1	_Number	Number _Misc
+1	_Number	Number _NNP
+1	_Number	Number _NNPS
+1	_Number	Number _Noun
+1	_Number	Number _Nouns
+1	_Number	Number _Number
+1	_Number	Number _Prep
+1	_Number	Number _Pro
+1	_Number	Number _Proper
+1	_Number	Number _TO
+1	_Number	Number _VB
+1	_Number	Number _VBD
+1	_Number	Number _VBG
+1	_Number	Number _VBN
+1	_Number	Number _VBP
+1	_Number	Number _VBS
+1	_Number	Number _VerbT
+1	_Number	Number _WRB
+1	_Prep	Prep
+1	_Prep	Prep _Punc
+1	_Prep	Prep _ADV
+1	_Prep	Prep _Adj
+1	_Prep	Prep _AdjS
+1	_Prep	Prep _Aux
+1	_Prep	Prep _CC
+1	_Prep	Prep _Det
+1	_Prep	Prep _MD
+1	_Prep	Prep _Misc
+1	_Prep	Prep _NNP
+1	_Prep	Prep _NNPS
+1	_Prep	Prep _Noun
+1	_Prep	Prep _Nouns
+1	_Prep	Prep _Number
+1	_Prep	Prep _Prep
+1	_Prep	Prep _Pro
+1	_Prep	Prep _Proper
+1	_Prep	Prep _TO
+1	_Prep	Prep _VB
+1	_Prep	Prep _VBD
+1	_Prep	Prep _VBG
+1	_Prep	Prep _VBN
+1	_Prep	Prep _VBP
+1	_Prep	Prep _VBS
+1	_Prep	Prep _VerbT
+1	_Prep	Prep _WRB
+1	_Pro	Pro
+1	_Pro	Pro _Punc
+1	_Pro	Pro _ADV
+1	_Pro	Pro _Adj
+1	_Pro	Pro _AdjS
+1	_Pro	Pro _Aux
+1	_Pro	Pro _CC
+1	_Pro	Pro _Det
+1	_Pro	Pro _MD
+1	_Pro	Pro _Misc
+1	_Pro	Pro _NNP
+1	_Pro	Pro _NNPS
+1	_Pro	Pro _Noun
+1	_Pro	Pro _Nouns
+1	_Pro	Pro _Number
+1	_Pro	Pro _Prep
+1	_Pro	Pro _Pro
+1	_Pro	Pro _Proper
+1	_Pro	Pro _TO
+1	_Pro	Pro _VB
+1	_Pro	Pro _VBD
+1	_Pro	Pro _VBG
+1	_Pro	Pro _VBN
+1	_Pro	Pro _VBP
+1	_Pro	Pro _VBS
+1	_Pro	Pro _VerbT
+1	_Pro	Pro _WRB
+1	_Proper	Proper
+1	_Proper	Proper _Punc
+1	_Proper	Proper _ADV
+1	_Proper	Proper _Adj
+1	_Proper	Proper _AdjS
+1	_Proper	Proper _Aux
+1	_Proper	Proper _CC
+1	_Proper	Proper _Det
+1	_Proper	Proper _MD
+1	_Proper	Proper _Misc
+1	_Proper	Proper _NNP
+1	_Proper	Proper _NNPS
+1	_Proper	Proper _Noun
+1	_Proper	Proper _Nouns
+1	_Proper	Proper _Number
+1	_Proper	Proper _Prep
+1	_Proper	Proper _Pro
+1	_Proper	Proper _Proper
+1	_Proper	Proper _TO
+1	_Proper	Proper _VB
+1	_Proper	Proper _VBD
+1	_Proper	Proper _VBG
+1	_Proper	Proper _VBN
+1	_Proper	Proper _VBP
+1	_Proper	Proper _VBS
+1	_Proper	Proper _VerbT
+1	_Proper	Proper _WRB
+1	_TO	TO
+1	_TO	TO _Punc
+1	_TO	TO _ADV
+1	_TO	TO _Adj
+1	_TO	TO _AdjS
+1	_TO	TO _Aux
+1	_TO	TO _CC
+1	_TO	TO _Det
+1	_TO	TO _MD
+1	_TO	TO _Misc
+1	_TO	TO _NNP
+1	_TO	TO _NNPS
+1	_TO	TO _Noun
+1	_TO	TO _Nouns
+1	_TO	TO _Number
+1	_TO	TO _Prep
+1	_TO	TO _Pro
+1	_TO	TO _Proper
+1	_TO	TO _TO
+1	_TO	TO _VB
+1	_TO	TO _VBD
+1	_TO	TO _VBG
+1	_TO	TO _VBN
+1	_TO	TO _VBP
+1	_TO	TO _VBS
+1	_TO	TO _VerbT
+1	_TO	TO _WRB
+1	_VB	VB
+1	_VB	VB _Punc
+1	_VB	VB _ADV
+1	_VB	VB _Adj
+1	_VB	VB _AdjS
+1	_VB	VB _Aux
+1	_VB	VB _CC
+1	_VB	VB _Det
+1	_VB	VB _MD
+1	_VB	VB _Misc
+1	_VB	VB _NNP
+1	_VB	VB _NNPS
+1	_VB	VB _Noun
+1	_VB	VB _Nouns
+1	_VB	VB _Number
+1	_VB	VB _Prep
+1	_VB	VB _Pro
+1	_VB	VB _Proper
+1	_VB	VB _TO
+1	_VB	VB _VB
+1	_VB	VB _VBD
+1	_VB	VB _VBG
+1	_VB	VB _VBN
+1	_VB	VB _VBP
+1	_VB	VB _VBS
+1	_VB	VB _VerbT
+1	_VB	VB _WRB
+1	_VBD	VBD
+1	_VBD	VBD _Punc
+1	_VBD	VBD _ADV
+1	_VBD	VBD _Adj
+1	_VBD	VBD _AdjS
+1	_VBD	VBD _Aux
+1	_VBD	VBD _CC
+1	_VBD	VBD _Det
+1	_VBD	VBD _MD
+1	_VBD	VBD _Misc
+1	_VBD	VBD _NNP
+1	_VBD	VBD _NNPS
+1	_VBD	VBD _Noun
+1	_VBD	VBD _Nouns
+1	_VBD	VBD _Number
+1	_VBD	VBD _Prep
+1	_VBD	VBD _Pro
+1	_VBD	VBD _Proper
+1	_VBD	VBD _TO
+1	_VBD	VBD _VB
+1	_VBD	VBD _VBD
+1	_VBD	VBD _VBG
+1	_VBD	VBD _VBN
+1	_VBD	VBD _VBP
+1	_VBD	VBD _VBS
+1	_VBD	VBD _VerbT
+1	_VBD	VBD _WRB
+1	_VBG	VBG
+1	_VBG	VBG _Punc
+1	_VBG	VBG _ADV
+1	_VBG	VBG _Adj
+1	_VBG	VBG _AdjS
+1	_VBG	VBG _Aux
+1	_VBG	VBG _CC
+1	_VBG	VBG _Det
+1	_VBG	VBG _MD
+1	_VBG	VBG _Misc
+1	_VBG	VBG _NNP
+1	_VBG	VBG _NNPS
+1	_VBG	VBG _Noun
+1	_VBG	VBG _Nouns
+1	_VBG	VBG _Number
+1	_VBG	VBG _Prep
+1	_VBG	VBG _Pro
+1	_VBG	VBG _Proper
+1	_VBG	VBG _TO
+1	_VBG	VBG _VB
+1	_VBG	VBG _VBD
+1	_VBG	VBG _VBG
+1	_VBG	VBG _VBN
+1	_VBG	VBG _VBP
+1	_VBG	VBG _VBS
+1	_VBG	VBG _VerbT
+1	_VBG	VBG _WRB
+1	_VBN	VBN
+1	_VBN	VBN _Punc
+1	_VBN	VBN _ADV
+1	_VBN	VBN _Adj
+1	_VBN	VBN _AdjS
+1	_VBN	VBN _Aux
+1	_VBN	VBN _CC
+1	_VBN	VBN _Det
+1	_VBN	VBN _MD
+1	_VBN	VBN _Misc
+1	_VBN	VBN _NNP
+1	_VBN	VBN _NNPS
+1	_VBN	VBN _Noun
+1	_VBN	VBN _Nouns
+1	_VBN	VBN _Number
+1	_VBN	VBN _Prep
+1	_VBN	VBN _Pro
+1	_VBN	VBN _Proper
+1	_VBN	VBN _TO
+1	_VBN	VBN _VB
+1	_VBN	VBN _VBD
+1	_VBN	VBN _VBG
+1	_VBN	VBN _VBN
+1	_VBN	VBN _VBP
+1	_VBN	VBN _VBS
+1	_VBN	VBN _VerbT
+1	_VBN	VBN _WRB
+1	_VBP	VBP
+1	_VBP	VBP _Punc
+1	_VBP	VBP _ADV
+1	_VBP	VBP _Adj
+1	_VBP	VBP _AdjS
+1	_VBP	VBP _Aux
+1	_VBP	VBP _CC
+1	_VBP	VBP _Det
+1	_VBP	VBP _MD
+1	_VBP	VBP _Misc
+1	_VBP	VBP _NNP
+1	_VBP	VBP _NNPS
+1	_VBP	VBP _Noun
+1	_VBP	VBP _Nouns
+1	_VBP	VBP _Number
+1	_VBP	VBP _Prep
+1	_VBP	VBP _Pro
+1	_VBP	VBP _Proper
+1	_VBP	VBP _TO
+1	_VBP	VBP _VB
+1	_VBP	VBP _VBD
+1	_VBP	VBP _VBG
+1	_VBP	VBP _VBN
+1	_VBP	VBP _VBP
+1	_VBP	VBP _VBS
+1	_VBP	VBP _VerbT
+1	_VBP	VBP _WRB
+1	_VBS	VBS
+1	_VBS	VBS _Punc
+1	_VBS	VBS _ADV
+1	_VBS	VBS _Adj
+1	_VBS	VBS _AdjS
+1	_VBS	VBS _Aux
+1	_VBS	VBS _CC
+1	_VBS	VBS _Det
+1	_VBS	VBS _MD
+1	_VBS	VBS _Misc
+1	_VBS	VBS _NNP
+1	_VBS	VBS _NNPS
+1	_VBS	VBS _Noun
+1	_VBS	VBS _Nouns
+1	_VBS	VBS _Number
+1	_VBS	VBS _Prep
+1	_VBS	VBS _Pro
+1	_VBS	VBS _Proper
+1	_VBS	VBS _TO
+1	_VBS	VBS _VB
+1	_VBS	VBS _VBD
+1	_VBS	VBS _VBG
+1	_VBS	VBS _VBN
+1	_VBS	VBS _VBP
+1	_VBS	VBS _VBS
+1	_VBS	VBS _VerbT
+1	_VBS	VBS _WRB
+1	_VerbT	VerbT
+1	_VerbT	VerbT _Punc
+1	_VerbT	VerbT _ADV
+1	_VerbT	VerbT _Adj
+1	_VerbT	VerbT _AdjS
+1	_VerbT	VerbT _Aux
+1	_VerbT	VerbT _CC
+1	_VerbT	VerbT _Det
+1	_VerbT	VerbT _MD
+1	_VerbT	VerbT _Misc
+1	_VerbT	VerbT _NNP
+1	_VerbT	VerbT _NNPS
+1	_VerbT	VerbT _Noun
+1	_VerbT	VerbT _Nouns
+1	_VerbT	VerbT _Number
+1	_VerbT	VerbT _Prep
+1	_VerbT	VerbT _Pro
+1	_VerbT	VerbT _Proper
+1	_VerbT	VerbT _TO
+1	_VerbT	VerbT _VB
+1	_VerbT	VerbT _VBD
+1	_VerbT	VerbT _VBG
+1	_VerbT	VerbT _VBN
+1	_VerbT	VerbT _VBP
+1	_VerbT	VerbT _VBS
+1	_VerbT	VerbT _VerbT
+1	_VerbT	VerbT _WRB
+1	_WRB	WRB
+1	_WRB	WRB _Punc
+1	_WRB	WRB _ADV
+1	_WRB	WRB _Adj
+1	_WRB	WRB _AdjS
+1	_WRB	WRB _Aux
+1	_WRB	WRB _CC
+1	_WRB	WRB _Det
+1	_WRB	WRB _MD
+1	_WRB	WRB _Misc
+1	_WRB	WRB _NNP
+1	_WRB	WRB _NNPS
+1	_WRB	WRB _Noun
+1	_WRB	WRB _Nouns
+1	_WRB	WRB _Number
+1	_WRB	WRB _Prep
+1	_WRB	WRB _Pro
+1	_WRB	WRB _Proper
+1	_WRB	WRB _TO
+1	_WRB	WRB _VB
+1	_WRB	WRB _VBD
+1	_WRB	WRB _VBG
+1	_WRB	WRB _VBN
+1	_WRB	WRB _VBP
+1	_WRB	WRB _VBS
+1	_WRB	WRB _VerbT
+1	_WRB	WRB _WRB
+#=======================================
+1	S2 NP
+1	S2 _NNP
+1	S2 _Det
+1	S2 _Proper
+1	S2 _VB
+1	S2 _MD
+1	S2 _VBD
+1	S2 _VBP
+1	S2 _VBS
+1	S2 _VBN
+1	S2 _VerbT
+1	S2 _CC_balance_either
+1	S2 _Prep
+1	S2 _Wh_pro
+1	S2 _Wh_pro_
+1	S2 _Wh_pro_Proper
+1	S2 PP
+1	S2 VP
+1	S2 _CONJ
+1	S2 _VBP_Prep
+1	S2 _Poss_pron	
+1	S2 _Proper_Det
+
+1	_NNP _CC 
+
+1	S1 Pause_VP
+1	S1 _Proper_CC
+1   S1 VBN_Det
+
+
+1   S2 _So Qmark
+1   S2 VBN_Det Qmark
+1   S2  Qword Pause
+
+1   VBN_Det_Qmark VBN_Det Qmark
+1   Qword_Pause  Qword Pause
+1   S2 Qword_Pause VBN_Det_Qmark 
+
+1   Proper PRP
+
+##========================================
+##========================================
+
+
+
+26	S2	INTJ
+74	S2	NP
+37	S2	SBARQ
+275	S2	S
+55	S2	FRAG
+3	S2	ADVP
+2	S2	PP
+20	S2	SQ
+2	S2	SINV
+1	S2	SBAR
+4	S2	ADJP
+1	S2	X
+1	INTJ	Noun INTJ|<ADVP-Punc>
+1	INTJ|<ADVP-Punc>	ADVP Punc
+87	ADVP	Adv
+18	NP	Noun Punc
+19	SBARQ	WHNP SBARQ|<SQ-Qmark>
+28	WHNP	Wh_pro
+30	SBARQ|<SQ-Qmark>	SQ Qmark
+8	SQ	VP
+1	VP	VBS ADVP
+90	S	NP S|<VP-Punc>
+321	NP	PRP
+167	S|<VP-Punc>	VP Punc
+1	VP	VBP VP|<NP-PP>
+27	VP|<NP-PP>	NP PP
+1	NP	NP NP|<Pause-NP-Pause-NP-Pause>
+1	NP|<Pause-NP-Pause-NP-Pause>	Pause NP|<NP-Pause-NP-Pause>
+1	NP|<NP-Pause-NP-Pause>	NP NP|<Pause-NP-Pause>
+24	NP	Proper
+2	NP|<Pause-NP-Pause>	Pause NP|<NP-Pause>
+2	NP|<NP-Pause>	NP Pause
+61	NP	NP PP
+102	NP	Noun
+172	PP	Prep NP
+12	NP	Noun Noun
+112	NP	Det Noun
+13	NP	NNP
+1	NP	NP NP|<Pause-NP-Pause-ADJP-Punc>
+9	NP	VBG
+9	NP	Det NNPS
+1	NP|<Pause-NP-Pause-ADJP-Punc>	Pause NP|<NP-Pause-ADJP-Punc>
+1	NP|<NP-Pause-ADJP-Punc>	NP NP|<Pause-ADJP-Punc>
+11	NP	Det Nouns
+1	NP|<Pause-ADJP-Punc>	Pause NP|<ADJP-Punc>
+7	NP|<ADJP-Punc>	ADJP Punc
+4	ADJP	Noun PP
+1	NP	Det NNP
+44	S	VP Punc
+33	VP	Noun NP
+2	NP	Det NP|<Adj-PRP>
+2	NP|<Adj-PRP>	Adj PRP
+6	VP	VBP
+1	FRAG	CC FRAG|<NP-NP-Punc>
+1	FRAG|<NP-NP-Punc>	NP FRAG|<NP-Punc>
+40	NP	Det
+9	FRAG|<NP-Punc>	NP Punc
+1	NP	Poss_pron NP|<Adj-Noun-Proper>
+1	NP|<Adj-Noun-Proper>	Adj NP|<Noun-Proper>
+2	NP|<Noun-Proper>	Noun Proper
+18	VP	VB VP
+1	VP	VBN VP|<NP-PP>
+1	NP	Det NP|<Noun-CC-Noun>
+2	NP|<Noun-CC-Noun>	Noun NP|<CC-Noun>
+4	NP|<CC-Noun>	CC Noun
+9	NP	NP SBAR
+30	NP	Nouns
+12	SBAR	WHNP S
+69	S	VP
+24	VP	MD VP
+12	VP	Noun VP|<NP-PP>
+32	NP	Poss_pron Noun
+7	VP	VB PP
+1	NP	Poss_pron NP|<Noun-CC-Noun>
+1	SBARQ	WHNP SBARQ|<Pause-S-Qmark>
+18	WHNP	Qword
+1	SBARQ|<Pause-S-Qmark>	Pause SBARQ|<S-Qmark>
+2	SBARQ|<S-Qmark>	S Qmark
+10	VP	VBN PP
+4	INTJ	UH Punc
+7	VP	VBG NP
+9	FRAG	Qword Qmark
+4	S	S S|<CC-S-Punc>
+121	S	NP VP
+15	VP	VBD NP
+1	NP	Number NP|<Adj-Nouns>
+6	NP|<Adj-Nouns>	Adj Nouns
+10	S|<CC-S-Punc>	CC S|<S-Punc>
+28	S|<S-Punc>	S Punc
+1	VP	OTH VP|<Noun-NP-ADVP>
+1	VP|<Noun-NP-ADVP>	Noun VP|<NP-ADVP>
+10	VP|<NP-ADVP>	NP ADVP
+5	NP	OTH
+1	ADVP	_So Qmark
+3	S	NP S|<VP-Pause>
+5	S|<VP-Pause>	VP Pause
+1	VP	VBN VP|<SBAR-Pause-PP-Pause-PP>
+1	VP|<SBAR-Pause-PP-Pause-PP>	SBAR VP|<Pause-PP-Pause-PP>
+8	SBAR	Prep S
+1	S	NP S|<VBN-NP>
+1	S|<VBN-NP>	VBN NP
+1	VP|<Pause-PP-Pause-PP>	Pause VP|<PP-Pause-PP>
+2	VP|<PP-Pause-PP>	PP VP|<Pause-PP>
+2	VP|<Pause-PP>	Pause PP
+2	PP	Prep
+3	SBARQ	WHADVP SBARQ|<SQ-Qmark>
+15	WHADVP	Qword
+2	SQ	OTH SQ|<NP-VP>
+20	SQ|<NP-VP>	NP VP
+23	VP	VB NP
+4	S	VP Qmark
+1	VP	Prep NP
+1	PP	Prep PP|<NP-Qmark>
+1	PP|<NP-Qmark>	NP Qmark
+4	VP	OTH ADJP
+14	ADJP	Adj
+11	SQ	VB SQ|<NP-VP>
+26	VP	Noun
+17	S	INTJ S|<Pause-NP-VP-Punc>
+30	INTJ	Adv
+30	S|<Pause-NP-VP-Punc>	Pause S|<NP-VP-Punc>
+50	S|<NP-VP-Punc>	NP S|<VP-Punc>
+29	VP	VBP NP
+14	NP	Det NP|<Adj-Noun>
+24	NP|<Adj-Noun>	Adj Noun
+1	S	S S|<Adv-S-Punc>
+1	VP	Noun VP|<ADVP-PP>
+4	VP|<ADVP-PP>	ADVP PP
+6	ADVP	ADV
+8	NP	NP VP
+2	NP	NP NP|<CC_or-NP>
+2	NP|<CC_or-NP>	CC_or NP
+15	NP	Det NP|<Noun-Noun>
+23	NP|<Noun-Noun>	Noun Noun
+7	NP	Noun Nouns
+1	S|<Adv-S-Punc>	Adv S|<S-Punc>
+1	VP	VBP VP|<ADV-NP>
+1	VP|<ADV-NP>	ADV NP
+14	PP	TO NP
+1	SQ	VBP SQ|<NP-VP-Qmark>
+6	SQ|<NP-VP-Qmark>	NP SQ|<VP-Qmark>
+7	SQ|<VP-Qmark>	VP Qmark
+3	VP	VBG SBAR
+25	SBAR	S
+22	VP	VB
+3	S	ADVP S|<Pause-NP-VP-Punc>
+1	ADVP	Adv ADVP|<Prep-Det>
+1	ADVP|<Prep-Det>	Prep Det
+5	VP	VBN
+1	FRAG	WHNP FRAG|<Pause-NP-Qmark>
+1	FRAG|<Pause-NP-Qmark>	Pause FRAG|<NP-Qmark>
+1	FRAG|<NP-Qmark>	NP Qmark
+1	VP	OTH VP|<ADV-NP-PP>
+1	VP|<ADV-NP-PP>	ADV VP|<NP-PP>
+1	PP	Prep SBAR
+5	SBAR	WHADVP S
+5	VP	Nouns NP
+11	VP	OTH NP
+3	NP	Det NP|<ADJP-Noun>
+3	NP|<ADJP-Noun>	ADJP Noun
+2	ADJP	Number Noun
+2	VP	MD VP|<ADV-VP>
+3	VP|<ADV-VP>	ADV VP
+13	VP	VB VP|<Adv-VP>
+22	VP|<Adv-VP>	Adv VP
+2	SQ	MD SQ|<NP-VP-Punc>
+2	SQ|<NP-VP-Punc>	NP SQ|<VP-Punc>
+2	SQ|<VP-Punc>	VP Punc
+6	VP	VP VP|<CC-VP>
+9	VP|<CC-VP>	CC VP
+4	VP	Noun VP|<NP-SBAR>
+4	VP|<NP-SBAR>	NP SBAR
+5	SBAR	Det S
+4	NP	Det Proper
+1	VP	VBP ADVP
+1	S	VB S|<Pause-SBAR-Pause-NP-VP-Qmark>
+1	S|<Pause-SBAR-Pause-NP-VP-Qmark>	Pause S|<SBAR-Pause-NP-VP-Qmark>
+1	S|<SBAR-Pause-NP-VP-Qmark>	SBAR S|<Pause-NP-VP-Qmark>
+1	SBAR	Prep SBAR|<Noun-S>
+1	SBAR|<Noun-S>	Noun S
+1	VP	S VP|<OTH-NP>
+35	VP	TO VP
+1	VP|<OTH-NP>	OTH NP
+3	S|<Pause-NP-VP-Qmark>	Pause S|<NP-VP-Qmark>
+3	S|<NP-VP-Qmark>	NP S|<VP-Qmark>
+4	S|<VP-Qmark>	VP Qmark
+1	VP	Nouns S
+1	VP	Noun VP|<NP-NP-Pause-INTJ>
+1	VP|<NP-NP-Pause-INTJ>	NP VP|<NP-Pause-INTJ>
+15	NP	Poss_pron Nouns
+2	VP|<NP-Pause-INTJ>	NP VP|<Pause-INTJ>
+5	NP	NP NP
+2	NP	Number Nouns
+3	NP	Det Adj
+2	VP|<Pause-INTJ>	Pause INTJ
+33	INTJ	Noun
+1	INTJ	VB Punc
+1	SQ	OTH SQ|<NP-ADJP-Qmark>
+2	SQ|<NP-ADJP-Qmark>	NP SQ|<ADJP-Qmark>
+2	SQ|<ADJP-Qmark>	ADJP Qmark
+10	ADJP	Noun
+6	NP	NP NP|<ADJP-Punc>
+4	ADJP	ADV Adj
+1	S	INTJ S|<Pause-INTJ-Pause-CC-ADV-NP-Pause-NP-VP-Punc>
+25	INTJ	UH
+1	S|<Pause-INTJ-Pause-CC-ADV-NP-Pause-NP-VP-Punc>	Pause S|<INTJ-Pause-CC-ADV-NP-Pause-NP-VP-Punc>
+1	S|<INTJ-Pause-CC-ADV-NP-Pause-NP-VP-Punc>	INTJ S|<Pause-CC-ADV-NP-Pause-NP-VP-Punc>
+1	INTJ	INTJ INTJ|<Pause-NP-ADVP>
+1	INTJ|<Pause-NP-ADVP>	Pause INTJ|<NP-ADVP>
+1	INTJ|<NP-ADVP>	NP ADVP
+1	S|<Pause-CC-ADV-NP-Pause-NP-VP-Punc>	Pause S|<CC-ADV-NP-Pause-NP-VP-Punc>
+1	S|<CC-ADV-NP-Pause-NP-VP-Punc>	CC S|<ADV-NP-Pause-NP-VP-Punc>
+1	S|<ADV-NP-Pause-NP-VP-Punc>	ADV S|<NP-Pause-NP-VP-Punc>
+1	S|<NP-Pause-NP-VP-Punc>	NP S|<Pause-NP-VP-Punc>
+1	S	INTJ S|<Pause-INTJ-Pause-NP-VP-Punc>
+1	S|<Pause-INTJ-Pause-NP-VP-Punc>	Pause S|<INTJ-Pause-NP-VP-Punc>
+1	S|<INTJ-Pause-NP-VP-Punc>	INTJ S|<Pause-NP-VP-Punc>
+23	VP	Noun PP
+1	SQ	MD SQ|<NP-VP-Qmark-Punc>
+1	SQ|<NP-VP-Qmark-Punc>	NP SQ|<VP-Qmark-Punc>
+1	SQ|<VP-Qmark-Punc>	VP SQ|<Qmark-Punc>
+4	SBAR	CONJ S
+3	VP	VerbT S
+1	SQ|<Qmark-Punc>	Qmark Punc
+1	S	CC S|<ADVP-PP-NP-VP-Punc>
+1	S|<ADVP-PP-NP-VP-Punc>	ADVP S|<PP-NP-VP-Punc>
+1	S|<PP-NP-VP-Punc>	PP S|<NP-VP-Punc>
+5	NP	Adj Nouns
+1	VP	VBP VP|<ADV-ADJP>
+2	VP|<ADV-ADJP>	ADV ADJP
+6	FRAG	INTJ FRAG|<Pause-INTJ-Punc>
+9	FRAG|<Pause-INTJ-Punc>	Pause FRAG|<INTJ-Punc>
+9	FRAG|<INTJ-Punc>	INTJ Punc
+2	S	_So S|<NP-VP-Punc>
+2	VP	MD VP|<Adv-VP>
+1	VP	Noun VP|<NP-ADVP-ADVP>
+1	VP|<NP-ADVP-ADVP>	NP VP|<ADVP-ADVP>
+3	VP|<ADVP-ADVP>	ADVP ADVP
+2	VP	Noun VP|<NP-Pause-S>
+2	VP|<NP-Pause-S>	NP VP|<Pause-S>
+6	VP|<Pause-S>	Pause S
+1	VP	VBN VP|<NP-ADVP>
+12	INTJ	Det
+19	VP	OTH VP
+15	VP	VB S
+8	VP	VB VP|<NP-PP>
+1	FRAG	INTJ FRAG|<Pause-ADJP-Punc>
+3	FRAG|<Pause-ADJP-Punc>	Pause FRAG|<ADJP-Punc>
+3	FRAG|<ADJP-Punc>	ADJP Punc
+4	VP	OTH VP|<ADVP-VP>
+7	VP|<ADVP-VP>	ADVP VP
+1	SBARQ	WHNP SBARQ|<Pause-VP-Qmark>
+1	SBARQ|<Pause-VP-Qmark>	Pause SBARQ|<VP-Qmark>
+2	SBARQ|<VP-Qmark>	VP Qmark
+1	NP	Det NP|<Noun-VBG-Nouns>
+1	NP|<Noun-VBG-Nouns>	Noun NP|<VBG-Nouns>
+2	NP|<VBG-Nouns>	VBG Nouns
+1	FRAG	INTJ FRAG|<Pause-WHADVP-ADV-Qmark>
+1	FRAG|<Pause-WHADVP-ADV-Qmark>	Pause FRAG|<WHADVP-ADV-Qmark>
+1	FRAG|<WHADVP-ADV-Qmark>	WHADVP FRAG|<ADV-Qmark>
+1	FRAG|<ADV-Qmark>	ADV Qmark
+1	VP	VB VP|<PRT-NP>
+2	VP|<PRT-NP>	PRT NP
+15	PRT	Prep
+1	NP	Poss_pron Adj
+1	SINV	ADVP SINV|<VP-NP-Punc>
+2	SINV|<VP-NP-Punc>	VP SINV|<NP-Punc>
+2	VP	OTH
+2	SINV|<NP-Punc>	NP Punc
+13	NP	NP NP|<Pause-NP>
+13	NP|<Pause-NP>	Pause NP
+1	NP	Number Noun
+1	SINV	NP SINV|<Pause-ADVP-VP-NP-Punc>
+1	SINV|<Pause-ADVP-VP-NP-Punc>	Pause SINV|<ADVP-VP-NP-Punc>
+1	SINV|<ADVP-VP-NP-Punc>	ADVP SINV|<VP-NP-Punc>
+1	NP	Poss_pron NP|<Number-Noun>
+1	NP|<Number-Noun>	Number Noun
+2	VP	VerbT SBAR
+1	VP	OTH VP|<ADV-ADJP>
+1	INTJ	Noun INTJ|<ADV-Punc>
+1	INTJ|<ADV-Punc>	ADV Punc
+2	VP	VBP Adv
+2	S	INTJ S|<Pause-S-Pause-S-Punc>
+3	S|<Pause-S-Pause-S-Punc>	Pause S|<S-Pause-S-Punc>
+4	S|<S-Pause-S-Punc>	S S|<Pause-S-Punc>
+5	VP	VB ADVP
+13	S|<Pause-S-Punc>	Pause S|<S-Punc>
+3	ADJP	Adv Noun
+1	VP	VBG ADJP
+3	ADJP	RBR
+1	VP	OTH ADV
+1	VP	VB VP|<ADJP-PP>
+4	VP|<ADJP-PP>	ADJP PP
+1	ADJP	Noun Adj
+6	S	S S|<Pause-S-Punc>
+4	S	INTJ S|<Pause-NP-VP>
+6	S|<Pause-NP-VP>	Pause S|<NP-VP>
+10	S|<NP-VP>	NP VP
+7	VP	Noun VP
+2	VP	OTH PP
+9	VP	Noun S
+8	S	INTJ S|<Pause-VP-Punc>
+15	S|<Pause-VP-Punc>	Pause S|<VP-Punc>
+1	NP	Adj NP|<Det-Noun>
+3	NP|<Det-Noun>	Det Noun
+5	VP	Noun ADJP
+3	VP	VB VP|<NP-NP>
+8	VP|<NP-NP>	NP NP
+1	SQ	INTJ SQ|<Pause-MD-NP-VP-Qmark>
+3	SQ|<Pause-MD-NP-VP-Qmark>	Pause SQ|<MD-NP-VP-Qmark>
+3	SQ|<MD-NP-VP-Qmark>	MD SQ|<NP-VP-Qmark>
+1	PP	PRT NP
+8	VP	VB ADJP
+1	ADJP	Adv
+1	S	NP S|<Pause-S-Pause-S-Punc>
+4	VP	VBD S
+1	VP	VB VP|<PRT-PP>
+4	VP|<PRT-PP>	PRT PP
+1	NP	Noun OTH
+1	VP	VBN VP|<NP-NP>
+2	NP	Number
+1	SBARQ	INTJ SBARQ|<Pause-WHADVP-SQ-Qmark>
+3	SBARQ|<Pause-WHADVP-SQ-Qmark>	Pause SBARQ|<WHADVP-SQ-Qmark>
+3	SBARQ|<WHADVP-SQ-Qmark>	WHADVP SBARQ|<SQ-Qmark>
+6	SQ	VBP NP
+8	NP	Poss_pron NP|<Adj-Noun>
+2	NP	Proper Punc
+9	VP	Noun SBAR
+1	VP	VP VP|<Noun-VP>
+1	VP	ADV VP|<Noun-NP>
+3	VP|<Noun-NP>	Noun NP
+1	VP|<Noun-VP>	Noun VP
+1	SQ	VB SQ|<Pause-VBP-Adv-NP-NP-Qmark>
+1	SQ|<Pause-VBP-Adv-NP-NP-Qmark>	Pause SQ|<VBP-Adv-NP-NP-Qmark>
+1	SQ|<VBP-Adv-NP-NP-Qmark>	VBP SQ|<Adv-NP-NP-Qmark>
+1	SQ|<Adv-NP-NP-Qmark>	Adv SQ|<NP-NP-Qmark>
+2	SQ|<NP-NP-Qmark>	NP SQ|<NP-Qmark>
+8	NP	Adv
+4	SQ|<NP-Qmark>	NP Qmark
+1	FRAG	INTJ FRAG|<Pause-NP-ADVP-Punc>
+4	INTJ	OTH
+1	FRAG|<Pause-NP-ADVP-Punc>	Pause FRAG|<NP-ADVP-Punc>
+1	FRAG|<NP-ADVP-Punc>	NP FRAG|<ADVP-Punc>
+1	FRAG|<ADVP-Punc>	ADVP Punc
+1	ADVP	Adv Adj
+1	FRAG	Adv FRAG|<Prep-Det-Punc>
+1	FRAG|<Prep-Det-Punc>	Prep FRAG|<Det-Punc>
+1	FRAG|<Det-Punc>	Det Punc
+5	INTJ	Adv Punc
+1	SQ	OTH SQ|<NP-ADVP>
+2	SQ|<NP-ADVP>	NP ADVP
+1	VP	VerbT VP|<Adv-VP>
+2	VP	VBD VP|<NP-PP>
+1	PP	ADVP PP|<Prep-NP>
+1	ADVP	Det
+1	PP|<Prep-NP>	Prep NP
+4	NP	Noun NP|<Noun-Punc>
+17	NP|<Noun-Punc>	Noun Punc
+1	NP	NP NP|<Pause-Noun-Punc>
+1	NP|<Pause-Noun-Punc>	Pause NP|<Noun-Punc>
+1	SBARQ	WHNP SBARQ|<S-Qmark>
+1	WHNP	Qword Noun
+1	VP	Adj VP|<PP-PP>
+4	VP|<PP-PP>	PP PP
+1	PP	Prep Adv
+3	NP	NP NP|<NP-Punc>
+8	NP|<NP-Punc>	NP Punc
+2	NP	Noun Number
+5	NP	NP NP|<Pause-NP-Punc>
+5	NP|<Pause-NP-Punc>	Pause NP|<NP-Punc>
+4	NP	NP ADJP
+1	VP	Noun VP|<ADVP-VP>
+1	S	NP S|<Punc-NP-OTH>
+1	S|<Punc-NP-OTH>	Punc S|<NP-OTH>
+1	S|<NP-OTH>	NP OTH
+1	VP	VB VP|<Punc-NP-OTH>
+1	VP|<Punc-NP-OTH>	Punc VP|<NP-OTH>
+1	VP|<NP-OTH>	NP OTH
+1	S	INTJ S|<Pause-NP-VP-Punc-OTH>
+1	S|<Pause-NP-VP-Punc-OTH>	Pause S|<NP-VP-Punc-OTH>
+1	S|<NP-VP-Punc-OTH>	NP S|<VP-Punc-OTH>
+1	S|<VP-Punc-OTH>	VP S|<Punc-OTH>
+4	VP	VBD VP|<Adv-VP>
+4	VP	VB SBAR
+4	VP	VBD VP
+4	VP	VBN S
+1	S	Punc NP
+1	S|<Punc-OTH>	Punc OTH
+1	S	INTJ S|<Pause-NP-VP-Qmark>
+1	VP	Noun VP|<S-Pause-SQ>
+1	VP|<S-Pause-SQ>	S VP|<Pause-SQ>
+1	VP	VB PRT
+1	VP|<Pause-SQ>	Pause SQ
+1	SQ	VBD NP
+1	S	S S|<Pause-OTH-CC-S-Pause>
+1	NP	Det NP|<Punc-Adj-Noun>
+1	NP|<Punc-Adj-Noun>	Punc NP|<Adj-Noun>
+1	S|<Pause-OTH-CC-S-Pause>	Pause S|<OTH-CC-S-Pause>
+1	S|<OTH-CC-S-Pause>	OTH S|<CC-S-Pause>
+1	S|<CC-S-Pause>	CC S|<S-Pause>
+1	S|<S-Pause>	S Pause
+2	S	PP S|<NP-VP>
+1	NP	Det Prep
+3	VP	VBD
+1	S	SBAR S|<VP-Punc>
+2	PP	TO
+4	VP	VBP SBAR
+2	S	NP S|<ADVP-VP>
+2	S|<ADVP-VP>	ADVP VP
+1	FRAG	INTJ FRAG|<Pause-INTJ-Pause-ADJP-Punc>
+1	INTJ	UH Noun
+2	FRAG|<Pause-INTJ-Pause-ADJP-Punc>	Pause FRAG|<INTJ-Pause-ADJP-Punc>
+2	FRAG|<INTJ-Pause-ADJP-Punc>	INTJ FRAG|<Pause-ADJP-Punc>
+6	ADJP	Adv Adj
+1	WHADVP	Det WHADVP|<OTH-WHADVP>
+1	WHADVP|<OTH-WHADVP>	OTH WHADVP
+1	SQ	SQ SQ|<Pause-INTJ>
+1	SQ|<Pause-INTJ>	Pause INTJ
+1	FRAG	Prep FRAG|<S-Punc>
+2	FRAG|<S-Punc>	S Punc
+1	VP	Noun VP|<OTH-NP-Pause-Prep-OTH-Noun-OTH-PP>
+1	VP|<OTH-NP-Pause-Prep-OTH-Noun-OTH-PP>	OTH VP|<NP-Pause-Prep-OTH-Noun-OTH-PP>
+1	VP|<NP-Pause-Prep-OTH-Noun-OTH-PP>	NP VP|<Pause-Prep-OTH-Noun-OTH-PP>
+1	VP|<Pause-Prep-OTH-Noun-OTH-PP>	Pause VP|<Prep-OTH-Noun-OTH-PP>
+1	VP|<Prep-OTH-Noun-OTH-PP>	Prep VP|<OTH-Noun-OTH-PP>
+1	VP|<OTH-Noun-OTH-PP>	OTH VP|<Noun-OTH-PP>
+1	VP|<Noun-OTH-PP>	Noun VP|<OTH-PP>
+2	VP|<OTH-PP>	OTH PP
+6	PP	Prep PP
+1	NP	VBN NP|<Noun-Noun>
+1	NP	Det NP|<Adj-Det-OTH-Adj-Nouns>
+1	NP|<Adj-Det-OTH-Adj-Nouns>	Adj NP|<Det-OTH-Adj-Nouns>
+1	NP|<Det-OTH-Adj-Nouns>	Det NP|<OTH-Adj-Nouns>
+1	NP|<OTH-Adj-Nouns>	OTH NP|<Adj-Nouns>
+1	SBAR	Prep SBAR|<S-Pause>
+1	SBAR|<S-Pause>	S Pause
+2	VP	VBG S
+3	S	NP S|<Pause-NP-VP-Punc>
+2	VP	OTH VP|<NP-ADVP>
+3	NP	Det NP|<Adv-Noun>
+3	NP|<Adv-Noun>	Adv Noun
+1	ADVP	Adv Adv
+1	FRAG	INTJ FRAG|<Pause-WHADVP-SQ-Qmark>
+1	FRAG|<Pause-WHADVP-SQ-Qmark>	Pause FRAG|<WHADVP-SQ-Qmark>
+1	FRAG|<WHADVP-SQ-Qmark>	WHADVP FRAG|<SQ-Qmark>
+1	FRAG|<SQ-Qmark>	SQ Qmark
+1	SQ	Noun SQ|<NP-VP>
+1	SBARQ	SBAR SBARQ|<Pause-NP-Punc>
+1	SBAR	WHADVP SQ
+1	SBARQ|<Pause-NP-Punc>	Pause SBARQ|<NP-Punc>
+1	SBARQ|<NP-Punc>	NP Punc
+5	NP	Adj Noun
+1	SQ	S SQ
+1	NP	NP NP|<PP-Qmark>
+1	NP|<PP-Qmark>	PP Qmark
+1	NP	Det Wh_pro
+1	NP	Det NP|<NNPS-Punc>
+1	NP|<NNPS-Punc>	NNPS Punc
+5	VP	VBN NP
+1	NP	NP PRN
+1	PRN	OTH PRN|<S-OTH>
+1	PRN|<S-OTH>	S OTH
+1	SBAR	WHPP NP
+1	WHPP	Prep WHNP
+1	NP	Det NP|<VBG-Nouns>
+1	S	UH S|<ADVP-NP-VP-Punc>
+4	S|<ADVP-NP-VP-Punc>	ADVP S|<NP-VP-Punc>
+1	VP	VP VP|<Pause-S>
+1	VP	VBG VP|<NP-PP-ADVP>
+1	VP|<NP-PP-ADVP>	NP VP|<PP-ADVP>
+3	VP|<PP-ADVP>	PP ADVP
+2	VP	OTH SBAR
+1	VP	OTH VP|<PP-SBAR>
+1	VP|<PP-SBAR>	PP SBAR
+1	PP	Det Prep
+1	SBAR	CONJ SBAR|<Adv-S>
+1	SBAR|<Adv-S>	Adv S
+2	VP	MD
+1	INTJ	VB
+3	VP	VBP PP
+4	VP	Nouns PP
+2	NP	Det PRP
+1	VP	Adj ADVP
+1	SBARQ	ADVP SBARQ|<WHNP-SQ-Qmark>
+5	SBARQ|<WHNP-SQ-Qmark>	WHNP SBARQ|<SQ-Qmark>
+4	NP	NP NP|<OTH-NP>
+4	NP|<OTH-NP>	OTH NP
+1	VP	VB VP|<NP-PP-S>
+2	VP|<NP-PP-S>	NP VP|<PP-S>
+3	VP|<PP-S>	PP S
+2	S	CC S|<NP-VP-Punc>
+2	NP	Det NP|<Det-Noun>
+2	NP	Det NP|<Adj-Noun-Noun>
+2	NP|<Adj-Noun-Noun>	Adj NP|<Noun-Noun>
+1	FRAG	Prep FRAG|<NP-Pause-Pause>
+1	FRAG|<NP-Pause-Pause>	NP FRAG|<Pause-Pause>
+1	NP	ADJP Nouns
+1	FRAG|<Pause-Pause>	Pause Pause
+1	FRAG	Pause FRAG|<CC-PP-PP-Pause>
+1	FRAG|<CC-PP-PP-Pause>	CC FRAG|<PP-PP-Pause>
+1	FRAG|<PP-PP-Pause>	PP FRAG|<PP-Pause>
+1	ADJP	Number ADJP|<OTH-Nouns>
+1	ADJP|<OTH-Nouns>	OTH Nouns
+1	FRAG|<PP-Pause>	PP Pause
+1	NP	RBR
+2	VP	Noun VP|<NP-S>
+3	VP|<NP-S>	NP S
+1	NP	NP NP|<Pause-INTJ-Pause-SBARQ-Qmark>
+1	NP|<Pause-INTJ-Pause-SBARQ-Qmark>	Pause NP|<INTJ-Pause-SBARQ-Qmark>
+1	NP|<INTJ-Pause-SBARQ-Qmark>	INTJ NP|<Pause-SBARQ-Qmark>
+1	NP|<Pause-SBARQ-Qmark>	Pause NP|<SBARQ-Qmark>
+1	NP|<SBARQ-Qmark>	SBARQ Qmark
+1	SBARQ	WHNP SQ
+1	SQ	INTJ SQ|<Pause-OTH-WHADVP-SQ-Qmark>
+1	SQ|<Pause-OTH-WHADVP-SQ-Qmark>	Pause SQ|<OTH-WHADVP-SQ-Qmark>
+1	SQ|<OTH-WHADVP-SQ-Qmark>	OTH SQ|<WHADVP-SQ-Qmark>
+1	SQ|<WHADVP-SQ-Qmark>	WHADVP SQ|<SQ-Qmark>
+1	WHADVP	Noun
+2	SQ|<SQ-Qmark>	SQ Qmark
+1	SQ	VBD SQ|<NP-VP>
+5	VP	Noun VP|<NP-ADVP>
+1	NP	NP NP|<PP-Pause>
+1	NP|<PP-Pause>	PP Pause
+2	NP	Det VB
+1	NP	NP NP|<Pause-VP>
+1	NP	Det NP|<Noun-VBG-Noun>
+1	NP|<Noun-VBG-Noun>	Noun NP|<VBG-Noun>
+1	NP|<VBG-Noun>	VBG Noun
+1	NP|<Pause-VP>	Pause VP
+2	VP	VP SBAR
+1	VP	Noun VP|<PP-PP>
+1	PP	Adv NP
+3	VP	VBG PP
+1	NP	NP NP|<Pause-NP-Pause>
+1	S	PRN S|<Pause-S-Punc>
+3	PRN	S
+1	VP	VBG VP|<PP-S>
+1	NP	Proper NP|<Noun-Noun>
+1	PP	PP PP|<Pause-ADV-PP>
+1	PP|<Pause-ADV-PP>	Pause PP|<ADV-PP>
+1	PP|<ADV-PP>	ADV PP
+1	NP	Det NP|<Adj-Adj-Noun>
+1	NP|<Adj-Adj-Noun>	Adj NP|<Adj-Noun>
+7	S	ADVP S|<NP-VP-Punc>
+1	VP	VB VP|<S-Noun-SBAR>
+1	VP|<S-Noun-SBAR>	S VP|<Noun-SBAR>
+1	VP	S VP|<Adv-OTH>
+1	VP	TO VP|<Noun-NP>
+2	NP	Noun NP|<Noun-Noun>
+1	VP|<Adv-OTH>	Adv OTH
+1	VP|<Noun-SBAR>	Noun SBAR
+8	VP	Noun PRT
+12	PRT	Adv
+1	VP	Noun VP|<Pause-S>
+1	S	SBAR S|<NP-VP>
+1	VP	VBD VP|<ADVP-S>
+1	VP|<ADVP-S>	ADVP S
+6	ADVP	Prep
+1	VP	Noun VP|<OTH-NP-VP>
+1	VP|<OTH-NP-VP>	OTH VP|<NP-VP>
+1	VP|<NP-VP>	NP VP
+1	SBAR	Adv SBAR|<CONJ-S>
+2	SBAR|<CONJ-S>	CONJ S
+1	NP	Det NP|<VBN-Noun>
+1	NP|<VBN-Noun>	VBN Noun
+3	VP	VBN VP
+1	S	INTJ S|<Pause-ADVP-NP-VP-Punc>
+2	S|<Pause-ADVP-NP-VP-Punc>	Pause S|<ADVP-NP-VP-Punc>
+1	VP	VB VP|<CC-VB-NP>
+1	VP|<CC-VB-NP>	CC VP|<VB-NP>
+1	VP|<VB-NP>	VB NP
+2	VP	VBG VP
+1	FRAG	INTJ FRAG|<Pause-WHNP-NP-PRT-Punc>
+1	FRAG|<Pause-WHNP-NP-PRT-Punc>	Pause FRAG|<WHNP-NP-PRT-Punc>
+1	FRAG|<WHNP-NP-PRT-Punc>	WHNP FRAG|<NP-PRT-Punc>
+1	FRAG|<NP-PRT-Punc>	NP FRAG|<PRT-Punc>
+1	FRAG|<PRT-Punc>	PRT Punc
+1	SQ	Noun SQ|<NP-ADVP-NP-Qmark>
+1	SQ|<NP-ADVP-NP-Qmark>	NP SQ|<ADVP-NP-Qmark>
+1	NP	NP NP|<ADVP-Pause-VBD-NP>
+1	NP|<ADVP-Pause-VBD-NP>	ADVP NP|<Pause-VBD-NP>
+1	ADVP	ADVP NP
+1	NP|<Pause-VBD-NP>	Pause NP|<VBD-NP>
+1	NP|<VBD-NP>	VBD NP
+1	SQ|<ADVP-NP-Qmark>	ADVP SQ|<NP-Qmark>
+2	NP	NP NP|<Pause-INTJ>
+2	NP|<Pause-INTJ>	Pause INTJ
+1	S	S S|<Pause-SINV-Pause-S-Qmark>
+2	S	NP PP
+1	S|<Pause-SINV-Pause-S-Qmark>	Pause S|<SINV-Pause-S-Qmark>
+1	S|<SINV-Pause-S-Qmark>	SINV S|<Pause-S-Qmark>
+1	SINV	VBD SINV|<NP-VP>
+1	SINV|<NP-VP>	NP VP
+1	S|<Pause-S-Qmark>	Pause S|<S-Qmark>
+1	S|<S-Qmark>	S Qmark
+1	VP	VBD VP|<Adv-NP>
+2	VP|<Adv-NP>	Adv NP
+7	NP	Proper Noun
+1	NP	Det NP|<ADJP-Nouns>
+1	NP|<ADJP-Nouns>	ADJP Nouns
+1	ADJP	ADJP ADJP|<CC-Det-Noun>
+1	ADJP	AdjS
+1	ADJP|<CC-Det-Noun>	CC ADJP|<Det-Noun>
+1	ADJP|<Det-Noun>	Det Noun
+1	NP	Poss_pron Proper
+1	S	S S|<Pause-SQ-Qmark>
+3	S	NP ADJP
+1	S|<Pause-SQ-Qmark>	Pause S|<SQ-Qmark>
+1	S|<SQ-Qmark>	SQ Qmark
+2	SQ	MD SQ|<NP-VP>
+2	S	_So S|<VP-Punc>
+3	VP	VB VP|<Pause-NP>
+9	VP|<Pause-NP>	Pause NP
+1	NP	NP Pause
+3	NP	Adj NP|<Proper-Noun>
+13	NP|<Proper-Noun>	Proper Noun
+1	VP	Noun VP|<NP-PP-S>
+2	VP	Noun ADVP
+1	S	ADVP S|<VP-Punc>
+2	VP	Noun VP|<ADVP-Pause-NP>
+2	VP|<ADVP-Pause-NP>	ADVP VP|<Pause-NP>
+1	FRAG	OTH FRAG|<Noun-NP-Punc>
+1	FRAG|<Noun-NP-Punc>	Noun FRAG|<NP-Punc>
+1	NP	CC NP
+2	NP	Det NP|<Noun-Qmark>
+3	NP|<Noun-Qmark>	Noun Qmark
+1	VP	OTH ADVP
+3	SBARQ	INTJ SBARQ|<Pause-WHNP-SQ-Qmark>
+3	SBARQ|<Pause-WHNP-SQ-Qmark>	Pause SBARQ|<WHNP-SQ-Qmark>
+2	VP	VBN ADJP
+1	ADJP	Adjc
+1	VP	VB VP|<PP-NP>
+2	VP|<PP-NP>	PP NP
+1	S	NP S|<VP-OTH>
+1	S|<VP-OTH>	VP OTH
+2	VP	VB VP|<PRT-ADVP>
+2	VP|<PRT-ADVP>	PRT ADVP
+5	S	S S|<Pause-CC-S-Punc>
+1	VP	VBP VP|<ADVP-ADJP-Pause-NP>
+1	VP|<ADVP-ADJP-Pause-NP>	ADVP VP|<ADJP-Pause-NP>
+2	VP|<ADJP-Pause-NP>	ADJP VP|<Pause-NP>
+6	S|<Pause-CC-S-Punc>	Pause S|<CC-S-Punc>
+1	FRAG	INTJ FRAG|<Pause-VP-Qmark>
+1	FRAG|<Pause-VP-Qmark>	Pause FRAG|<VP-Qmark>
+1	FRAG|<VP-Qmark>	VP Qmark
+1	S	VB S|<Pause-S-Pause-NP-VP-Punc>
+1	S|<Pause-S-Pause-NP-VP-Punc>	Pause S|<S-Pause-NP-VP-Punc>
+1	S|<S-Pause-NP-VP-Punc>	S S|<Pause-NP-VP-Punc>
+1	S	PRP S|<Adj-Noun>
+1	S|<Adj-Noun>	Adj Noun
+1	ADVP	UH
+1	NP	Adv NP|<Det-Noun-Noun-Punc>
+1	NP|<Det-Noun-Noun-Punc>	Det NP|<Noun-Noun-Punc>
+1	NP|<Noun-Noun-Punc>	Noun NP|<Noun-Punc>
+1	S	PRN S|<Pause-VP-Punc>
+1	S	PRN S|<Pause-NP-VP-Punc>
+1	S	NP S|<VP-Qmark>
+1	NP	Wh_pro
+1	VP	VB VP|<OTH-INTJ>
+1	VP|<OTH-INTJ>	OTH INTJ
+3	SQ	VBP SQ|<NP-VP>
+1	VP	VP VP|<Pause-VP>
+1	VP|<Pause-VP>	Pause VP
+1	S	NP S|<ADVP-VP-Punc>
+1	NP	Det NP|<Noun-Proper>
+1	S|<ADVP-VP-Punc>	ADVP S|<VP-Punc>
+1	S	FRAG S|<Pause-S-Punc>
+1	FRAG	ADVP
+1	ADVP	Det Noun
+4	S	NP NP
+1	FRAG	INTJ FRAG|<Pause-INTJ-PRN-VP-Punc>
+1	FRAG|<Pause-INTJ-PRN-VP-Punc>	Pause FRAG|<INTJ-PRN-VP-Punc>
+1	FRAG|<INTJ-PRN-VP-Punc>	INTJ FRAG|<PRN-VP-Punc>
+1	FRAG|<PRN-VP-Punc>	PRN FRAG|<VP-Punc>
+1	PRN	Pause PRN|<S-Pause>
+1	PRN|<S-Pause>	S Pause
+2	FRAG|<VP-Punc>	VP Punc
+1	VP	VBG VP|<ADVP-ADVP>
+1	VP	Adj Nouns
+1	VP	VB VP|<ADVP-ADVP>
+5	VP	Noun VP|<NP-PRT>
+6	VP|<NP-PRT>	NP PRT
+8	NP	Det NP|<Noun-Punc>
+1	SQ	S SQ|<Pause-SQ-Qmark>
+1	SQ|<Pause-SQ-Qmark>	Pause SQ|<SQ-Qmark>
+12	NP	Poss_pron
+6	INTJ	Noun Punc
+1	VP	VB VP|<NP-ADVP>
+1	FRAG	Noun FRAG|<ADV-NP-Punc>
+1	FRAG|<ADV-NP-Punc>	ADV FRAG|<NP-Punc>
+2	VP	VBP VP
+1	VP	VBN VP|<NP-PRT-PP>
+2	VP|<NP-PRT-PP>	NP VP|<PRT-PP>
+1	VP	VBD VP|<Adv-Punc-INTJ>
+1	VP|<Adv-Punc-INTJ>	Adv VP|<Punc-INTJ>
+1	VP|<Punc-INTJ>	Punc INTJ
+1	S	CC S|<S-Pause-S-Punc>
+1	VP	VBP VP|<Adv-NP>
+2	NP	Poss_pron Adv
+1	INTJ	Adv Qmark
+2	NP	Det Adv
+1	NP	Det NP|<Adv-Qmark>
+1	NP|<Adv-Qmark>	Adv Qmark
+1	S	CC S|<NP-Pause-CC-S-Punc>
+1	S|<NP-Pause-CC-S-Punc>	NP S|<Pause-CC-S-Punc>
+1	SQ	Noun SQ|<NP-VP-Qmark>
+1	VP	Noun VP|<NP-PRT-PP>
+1	INTJ	INTJ INTJ|<Punc-INTJ-Punc>
+1	INTJ|<Punc-INTJ-Punc>	Punc INTJ|<INTJ-Punc>
+1	INTJ|<INTJ-Punc>	INTJ Punc
+3	INTJ	Nouns
+1	FRAG	INTJ FRAG|<Pause-INTJ-Pause-NP-Punc>
+1	FRAG|<Pause-INTJ-Pause-NP-Punc>	Pause FRAG|<INTJ-Pause-NP-Punc>
+1	FRAG|<INTJ-Pause-NP-Punc>	INTJ FRAG|<Pause-NP-Punc>
+1	INTJ	INTJ INTJ|<Pause-NP>
+1	INTJ|<Pause-NP>	Pause NP
+4	FRAG|<Pause-NP-Punc>	Pause FRAG|<NP-Punc>
+1	VP	VerbT VP
+2	VP	VBD ADJP
+1	ADJP	Adj ADJP|<Pause-Adj-Punc>
+1	ADJP|<Pause-Adj-Punc>	Pause ADJP|<Adj-Punc>
+1	ADJP|<Adj-Punc>	Adj Punc
+2	ADJP	Adj Punc
+2	PP	Prep S
+1	SQ	VBP SQ|<ADVP-Qmark>
+1	SQ|<ADVP-Qmark>	ADVP Qmark
+1	VP	VB VP|<NP-Pause-WHNP-SQ>
+1	VP|<NP-Pause-WHNP-SQ>	NP VP|<Pause-WHNP-SQ>
+1	VP|<Pause-WHNP-SQ>	Pause VP|<WHNP-SQ>
+1	VP|<WHNP-SQ>	WHNP SQ
+1	S	Noun S|<Pause-VP-Punc>
+1	SBARQ	CC SBARQ|<WHNP-SQ-Qmark>
+1	PP	Adv PP
+1	NP	RBR NP|<Nouns-Punc>
+2	NP|<Nouns-Punc>	Nouns Punc
+2	SBARQ	ADVP SBARQ|<Pause-WHADVP-SQ-Qmark>
+3	ADVP	_So
+1	NP	Noun NP|<Pause-Punc>
+1	NP|<Pause-Punc>	Pause Punc
+1	SQ	OTH SQ|<ADVP-NP-VP-Punc-Qmark>
+1	SQ|<ADVP-NP-VP-Punc-Qmark>	ADVP SQ|<NP-VP-Punc-Qmark>
+4	ADVP	Noun
+1	SQ|<NP-VP-Punc-Qmark>	NP SQ|<VP-Punc-Qmark>
+1	SQ|<VP-Punc-Qmark>	VP SQ|<Punc-Qmark>
+1	SQ|<Punc-Qmark>	Punc Qmark
+1	INTJ	UH INTJ
+1	SQ	INTJ SQ|<Pause-CC-MD-NP-ADV-ADVP-VP-Qmark>
+1	SQ|<Pause-CC-MD-NP-ADV-ADVP-VP-Qmark>	Pause SQ|<CC-MD-NP-ADV-ADVP-VP-Qmark>
+1	SQ|<CC-MD-NP-ADV-ADVP-VP-Qmark>	CC SQ|<MD-NP-ADV-ADVP-VP-Qmark>
+1	SQ|<MD-NP-ADV-ADVP-VP-Qmark>	MD SQ|<NP-ADV-ADVP-VP-Qmark>
+1	SQ|<NP-ADV-ADVP-VP-Qmark>	NP SQ|<ADV-ADVP-VP-Qmark>
+1	SQ|<ADV-ADVP-VP-Qmark>	ADV SQ|<ADVP-VP-Qmark>
+1	SQ|<ADVP-VP-Qmark>	ADVP SQ|<VP-Qmark>
+1	SQ	Nouns SQ|<NP-VP-Qmark>
+1	VP	Nouns
+1	SBARQ	WHNP SBARQ|<ADVP-VP-Qmark>
+1	SBARQ|<ADVP-VP-Qmark>	ADVP SBARQ|<VP-Qmark>
+3	NP	Nouns Punc
+1	NP	ADJP NP|<Nouns-Punc>
+1	ADVP	Adv Punc
+1	FRAG	ADVP FRAG|<Pause-ADVP-Punc-Pause>
+1	FRAG|<Pause-ADVP-Punc-Pause>	Pause FRAG|<ADVP-Punc-Pause>
+1	FRAG|<ADVP-Punc-Pause>	ADVP FRAG|<Punc-Pause>
+1	FRAG|<Punc-Pause>	Punc Pause
+1	X	Prep Punc
+1	FRAG	CC FRAG|<ADVP-Pause-Qmark>
+1	FRAG|<ADVP-Pause-Qmark>	ADVP FRAG|<Pause-Qmark>
+1	FRAG|<Pause-Qmark>	Pause Qmark
+1	NP	Poss_pron NP|<Adjc-Nouns>
+1	NP|<Adjc-Nouns>	Adjc Nouns
+1	SQ	VBP SQ|<NP-SBAR>
+1	SQ|<NP-SBAR>	NP SBAR
+1	VP	VBP VP|<ADJP-PP>
+1	ADJP	CONJ Noun
+2	NP	Poss_pron NP|<Noun-Punc>
+1	SQ	NP SQ|<Pause-MD-NP-VP-Qmark>
+3	VP	VP VP|<Pause-CC-VP>
+1	VP	VB VP|<PP-PP>
+3	VP|<Pause-CC-VP>	Pause VP|<CC-VP>
+1	NP	Det NP|<Noun-Proper-Noun>
+1	NP|<Noun-Proper-Noun>	Noun NP|<Proper-Noun>
+1	NP	NP Nouns
+1	NP	VBG NP|<Proper-OTH>
+1	NP|<Proper-OTH>	Proper OTH
+1	NP	Adj NP|<Adj-Nouns>
+1	VP	VBD VP|<ADVP-TO-VP>
+1	VP|<ADVP-TO-VP>	ADVP VP|<TO-VP>
+1	VP|<TO-VP>	TO VP
+1	VP	VP VP|<Pause-NP>
+1	NP	NP NP|<Pause-NP-Pause-CC-NP>
+1	NP	Proper NP|<Noun-Det-VB>
+1	NP|<Noun-Det-VB>	Noun NP|<Det-VB>
+1	NP|<Det-VB>	Det VB
+1	NP|<Pause-NP-Pause-CC-NP>	Pause NP|<NP-Pause-CC-NP>
+1	NP|<NP-Pause-CC-NP>	NP NP|<Pause-CC-NP>
+1	NP	Proper Proper
+1	NP|<Pause-CC-NP>	Pause NP|<CC-NP>
+2	NP|<CC-NP>	CC NP
+1	NP	NP NP|<PRN-Noun-SBAR>
+1	NP	NP NP|<Det-Adv>
+1	NP|<Det-Adv>	Det Adv
+1	NP|<PRN-Noun-SBAR>	PRN NP|<Noun-SBAR>
+1	PRN	PRN PRN|<Prep-PRN>
+1	PRN	OTH PRN|<Adv-OTH-CONJ-PRN>
+1	PRN|<Adv-OTH-CONJ-PRN>	Adv PRN|<OTH-CONJ-PRN>
+1	PRN|<OTH-CONJ-PRN>	OTH PRN|<CONJ-PRN>
+1	PRN|<CONJ-PRN>	CONJ PRN
+1	PRN	OTH PRN|<ADJP-OTH>
+1	PRN|<ADJP-OTH>	ADJP OTH
+1	PRN|<Prep-PRN>	Prep PRN
+1	PRN	OTH PRN|<Proper-OTH>
+1	PRN|<Proper-OTH>	Proper OTH
+1	NP|<Noun-SBAR>	Noun SBAR
+1	SBAR	SBAR SBAR|<CC-SBAR>
+1	SBAR	SBAR SBAR|<Pause-SBAR>
+2	VP	VBN VP|<ADVP-VP>
+1	SBAR|<Pause-SBAR>	Pause SBAR
+1	VP	Noun VP|<PRT-PP>
+1	SBAR|<CC-SBAR>	CC SBAR
+1	SBAR	SBAR SBAR|<Pause-CC-NP>
+1	VP	ADVP VP|<Noun-NP-PP>
+1	VP|<Noun-NP-PP>	Noun VP|<NP-PP>
+1	SBAR|<Pause-CC-NP>	Pause SBAR|<CC-NP>
+1	SBAR|<CC-NP>	CC NP
+1	NP	Det NP|<ADVP-VBN-S>
+1	NP|<ADVP-VBN-S>	ADVP NP|<VBN-S>
+1	NP|<VBN-S>	VBN S
+2	S	NP
+1	NP	Proper NP|<Adv-OTH-S>
+1	NP|<Adv-OTH-S>	Adv NP|<OTH-S>
+1	NP|<OTH-S>	OTH S
+1	VP	VBG VP|<OTH-PP>
+1	PP	PP PP|<OTH-NP>
+1	PP	Prep PP|<OTH-NP>
+2	PP|<OTH-NP>	OTH NP
+1	SBAR	SBAR SBAR|<Pause-NP>
+1	WHNP	Wh_prop WHNP|<Nouns-CC-Nouns>
+1	WHNP|<Nouns-CC-Nouns>	Nouns WHNP|<CC-Nouns>
+1	WHNP|<CC-Nouns>	CC Nouns
+1	SBAR|<Pause-NP>	Pause NP
+1	S	CC S|<NP-Pause-NP-Pause-VP-Punc>
+1	S|<NP-Pause-NP-Pause-VP-Punc>	NP S|<Pause-NP-Pause-VP-Punc>
+2	S|<Pause-NP-Pause-VP-Punc>	Pause S|<NP-Pause-VP-Punc>
+2	S|<NP-Pause-VP-Punc>	NP S|<Pause-VP-Punc>
+1	VP	ADJP VP|<OTH-VP>
+1	VP|<OTH-VP>	OTH VP
+2	NP	Det NP|<Adj-VBG>
+2	NP|<Adj-VBG>	Adj VBG
+1	VP	Noun VP|<ADVP-SBAR>
+1	VP|<ADVP-SBAR>	ADVP SBAR
+1	FRAG	INTJ FRAG|<Pause-ADVP-Pause-INTJ-Punc>
+1	FRAG|<Pause-ADVP-Pause-INTJ-Punc>	Pause FRAG|<ADVP-Pause-INTJ-Punc>
+1	FRAG|<ADVP-Pause-INTJ-Punc>	ADVP FRAG|<Pause-INTJ-Punc>
+1	NP	NNP Punc
+1	VP	OTH VP|<ADVP-NP>
+1	VP|<ADVP-NP>	ADVP NP
+1	VP	Noun VP|<NP-ADJP-PP>
+1	VP|<NP-ADJP-PP>	NP VP|<ADJP-PP>
+1	PP	TO PP|<NP-Punc>
+1	PP|<NP-Punc>	NP Punc
+1	NP	NP NP|<CC-NP>
+1	FRAG	PP FRAG|<OTH-NP-Punc>
+1	FRAG|<OTH-NP-Punc>	OTH FRAG|<NP-Punc>
+1	NP	Adj
+1	VP	Noun VP|<ADVP-ADVP-PP>
+1	VP|<ADVP-ADVP-PP>	ADVP VP|<ADVP-PP>
+2	NP	Noun NP|<CC-Noun>
+1	VP	NP NP
+1	PP	Prep PP|<OTH-Noun-OTH-Adj>
+1	PP|<OTH-Noun-OTH-Adj>	OTH PP|<Noun-OTH-Adj>
+1	PP|<Noun-OTH-Adj>	Noun PP|<OTH-Adj>
+1	PP|<OTH-Adj>	OTH Adj
+1	S	Prep S
+1	NP	Adj NP|<Nouns-Noun>
+1	NP|<Nouns-Noun>	Nouns Noun
+1	VP	VBP ADJP
+1	ADJP	ADJP ADJP|<OTH-ADJP>
+1	ADJP	Adv VBG
+1	ADJP|<OTH-ADJP>	OTH ADJP
+1	S	NP S|<ADV-CONJ-Noun-PP>
+1	S|<ADV-CONJ-Noun-PP>	ADV S|<CONJ-Noun-PP>
+1	S|<CONJ-Noun-PP>	CONJ S|<Noun-PP>
+1	S|<Noun-PP>	Noun PP
+1	VP	VBG VP|<PP-NP>
+1	S	INTJ VP
+1	ADJP	Adj ADJP|<CC-Adj>
+1	ADJP|<CC-Adj>	CC Adj
+1	PP	Noun NP
+1	FRAG	CC VP
+1	NP	Noun Adj
+1	VP	OTH VP|<ADJP-PP>
+1	ADJP	NP ADJP|<Adv-Noun>
+1	ADJP|<Adv-Noun>	Adv Noun
+3	VP	Noun VP|<NP-NP>
+1	S	INTJ S|<Pause-PP-Pause-VP>
+1	S|<Pause-PP-Pause-VP>	Pause S|<PP-Pause-VP>
+1	S|<PP-Pause-VP>	PP S|<Pause-VP>
+1	S|<Pause-VP>	Pause VP
+1	S	NP S|<ADV-VP>
+1	S|<ADV-VP>	ADV VP
+2	S	SBAR S|<Pause-NP-VP-Punc>
+2	NP	PRP Noun
+1	VP	VBG
+1	INTJ	Noun Pause
+1	S	CC S|<VP-Punc>
+1	S	NP S|<NP-VP-Punc>
+1	NP	OTH NP|<Noun-NP-OTH-CC-OTH-VP-OTH-CC-S>
+1	NP|<Noun-NP-OTH-CC-OTH-VP-OTH-CC-S>	Noun NP|<NP-OTH-CC-OTH-VP-OTH-CC-S>
+1	NP|<NP-OTH-CC-OTH-VP-OTH-CC-S>	NP NP|<OTH-CC-OTH-VP-OTH-CC-S>
+1	NP|<OTH-CC-OTH-VP-OTH-CC-S>	OTH NP|<CC-OTH-VP-OTH-CC-S>
+1	NP|<CC-OTH-VP-OTH-CC-S>	CC NP|<OTH-VP-OTH-CC-S>
+1	NP|<OTH-VP-OTH-CC-S>	OTH NP|<VP-OTH-CC-S>
+1	NP|<VP-OTH-CC-S>	VP NP|<OTH-CC-S>
+1	VP	Adj VP|<NP-NP>
+1	NP|<OTH-CC-S>	OTH NP|<CC-S>
+1	NP|<CC-S>	CC S
+1	NP	OTH Noun
+1	ADJP	ADJP OTH
+1	ADJP	ADV Noun
+1	SBARQ	WHNP SBARQ|<SQ-Punc-Qmark>
+1	SBARQ|<SQ-Punc-Qmark>	SQ SBARQ|<Punc-Qmark>
+1	VP	VBG ADVP
+1	SBARQ|<Punc-Qmark>	Punc Qmark
+1	FRAG	S FRAG|<Pause-INTJ-Punc>
+2	INTJ	Noun Noun
+2	VP	VB Adv
+1	NP	Det NP|<Adj-Nouns>
+1	ADJP	CONJ VBG
+2	S	Adv S|<VP-Punc>
+3	FRAG	INTJ FRAG|<Pause-NP-Punc>
+1	S	NP S|<Pause-S-Punc>
+1	NP	Det NP|<Noun-Nouns>
+3	NP|<Noun-Nouns>	Noun Nouns
+1	FRAG	NP FRAG|<Pause-INTJ-Punc>
+1	S	OTH S|<ADVP-NP-VP-Punc>
+4	NP	Det NP|<Proper-Noun>
+1	S	S S|<Prep-S-Punc>
+1	VP	VB VP|<ADVP-Pause-NP-Pause>
+1	VP|<ADVP-Pause-NP-Pause>	ADVP VP|<Pause-NP-Pause>
+1	VP|<Pause-NP-Pause>	Pause VP|<NP-Pause>
+1	VP|<NP-Pause>	NP Pause
+1	S|<Prep-S-Punc>	Prep S|<S-Punc>
+2	NP	NP
+1	VP	VBP VP|<NP-S>
+1	NP	Det AdjS
+1	NP	NP NP|<PP-Punc>
+1	NP|<PP-Punc>	PP Punc
+1	NP	OTH NP|<Noun-Punc>
+2	NP	VBG Proper
+1	SQ	OTH SQ|<NP-SQ>
+1	SQ|<NP-SQ>	NP SQ
+1	NP	NP
+1	NP	NP NP|<PP-OTH-Nouns-Noun-Noun-Noun>
+1	NP|<PP-OTH-Nouns-Noun-Noun-Noun>	PP NP|<OTH-Nouns-Noun-Noun-Noun>
+1	PP	Prep PP|<Poss_pron-Noun-Noun>
+1	PP|<Poss_pron-Noun-Noun>	Poss_pron PP|<Noun-Noun>
+1	PP|<Noun-Noun>	Noun Noun
+1	NP|<OTH-Nouns-Noun-Noun-Noun>	OTH NP|<Nouns-Noun-Noun-Noun>
+1	NP|<Nouns-Noun-Noun-Noun>	Nouns NP|<Noun-Noun-Noun>
+1	NP|<Noun-Noun-Noun>	Noun NP|<Noun-Noun>
+
+#============================================================
+1   _Punc Punc
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _VBS VBS _Adv
+1   S2 Wh_pro _VBS
+1   _Pause Pause
+1   _NNP NNP _Pause
+1   _CONJ CONJ _NNP
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Pause Pause _Prep
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Pause Pause _Noun
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _PRP PRP _Pause
+1   _VBP VBP _PRP
+1   S2 PRP _VBP
+1   _Punc Punc
+1   _NNP NNP _Punc
+1   _Det Det _NNP
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   _Pause Pause _Noun
+1   _Nouns Nouns _Pause
+1   _Det Det _Nouns
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   _Pause Pause _Noun
+1   _NNPS NNPS _Pause
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   S2 VBG _CONJ
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _Adj Adj _PRP
+1   _Det Det _Adj
+1   S2 Noun _Det
+1   _Pause Pause
+1   _VBP VBP _Pause
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _Noun Noun _Proper
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _Det Det _Poss_pron
+1   S2 CC _Det
+1   _Pause Pause
+1   _NNP NNP _Pause
+1   _CONJ CONJ _NNP
+1   _Noun Noun _CONJ
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _MD MD _Noun
+1   _Wh_pro Wh_pro _MD
+1   _Nouns Nouns _Wh_pro
+1   _CONJ CONJ _Nouns
+1   _Noun Noun _CONJ
+1   _Prep Prep _Noun
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _Det Det _Noun
+1   _VBN VBN _Det
+1   _VB VB _VBN
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _VB VB _Prep
+1   _MD MD _VB
+1   S2 PRP _MD
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _Pause Pause _VBN
+1   S2 Qword _Pause
+1   _Punc Punc
+1   S2 UH _Punc
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _VBG VBG _Nouns
+1   S2 Noun _VBG
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _OTH OTH _Adv
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _PRP PRP _OTH
+1   _CC CC _PRP
+1   _Noun Noun _CC
+1   _CONJ CONJ _Noun
+1   _Nouns Nouns _CONJ
+1   _Adj Adj _Nouns
+1   _Number Number _Adj
+1   _VBD VBD _Number
+1   S2 Noun _VBD
+1   _Qmark Qmark
+1   S2 _So _Qmark
+1   _Pause Pause
+1   _Prep Prep _Pause
+1   _Pause Pause _Prep
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Pause Pause _Prep
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VBN VBN _Det
+1   _Noun Noun _VBN
+1   _CONJ CONJ _Noun
+1   _Nouns Nouns _CONJ
+1   _Det Det _Nouns
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VB VB _VBN
+1   S2 PRP _VB
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _PRP PRP _VB
+1   _OTH OTH _PRP
+1   S2 Qword _OTH
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   S2 Prep _PRP
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   S2 Prep _Noun
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _OTH OTH _Adj
+1   _Noun Noun _OTH
+1   S2 Det _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   S2 Qword _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _VBP VBP _Det
+1   _Det Det _VBP
+1   _Pause Pause _Det
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _TO TO _Poss_pron
+1   _Nouns Nouns _TO
+1   _ADV ADV _Nouns
+1   _VBP VBP _ADV
+1   _Det Det _VBP
+1   _Adv Adv _Det
+1   _Noun Noun _Adv
+1   _Prep Prep _Noun
+1   _Nouns Nouns _Prep
+1   _Noun Noun _Nouns
+1   _Noun Noun _Noun
+1   _MD MD _Noun
+1   _Noun Noun _MD
+1   _Det Det _Noun
+1   _CC_or CC_or _Det
+1   _Noun Noun _CC_or
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CC_or CC_or _Det
+1   _Noun Noun _CC_or
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _ADV ADV _Prep
+1   _Noun Noun _ADV
+1   _MD MD _Noun
+1   _Noun Noun _MD
+1   S2 Det _Noun
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _Nouns Nouns _VB
+1   _VBG VBG _Nouns
+1   _PRP PRP _VBG
+1   S2 VBP _PRP
+1   _Pause Pause
+1   _VBN VBN _Pause
+1   _VB VB _VBN
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Pause Pause _PRP
+1   _Det Det _Pause
+1   _Prep Prep _Det
+1   S2 Adv _Prep
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VBG VBG _Det
+1   _Noun Noun _VBG
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   S2 Qword _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _MD MD _Noun
+1   S2 PRP _MD
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _Nouns Nouns _PRP
+1   _PRP PRP _Nouns
+1   _Qword Qword _PRP
+1   _CONJ CONJ _Qword
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _ADV ADV _Det
+1   _OTH OTH _ADV
+1   S2 PRP _OTH
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Noun Noun _Nouns
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _OTH OTH _Det
+1   S2 PRP _OTH
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Number Number _Noun
+1   _Det Det _Number
+1   _VB VB _Det
+1   _ADV ADV _VB
+1   _MD MD _ADV
+1   _Noun Noun _MD
+1   _Noun Noun _Noun
+1   _Number Number _Noun
+1   S2 Det _Number
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _Aux Aux _Adv
+1   _PRP PRP _Aux
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VBP VBP _Adv
+1   _NNP NNP _VBP
+1   _CONJ CONJ _NNP
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _Proper Proper _Prep
+1   _Det Det _Proper
+1   _Noun Noun _Det
+1   _Poss_pron Poss_pron _Noun
+1   _Noun Noun _Poss_pron
+1   _CC CC _Noun
+1   _VB VB _CC
+1   _PRP PRP _VB
+1   S2 MD _PRP
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Pause Pause _Noun
+1   _Adj Adj _Pause
+1   _Det Det _Adj
+1   _Nouns Nouns _Det
+1   _Number Number _Nouns
+1   _Nouns Nouns _Number
+1   _Poss_pron Poss_pron _Nouns
+1   _Noun Noun _Poss_pron
+1   _TO TO _Noun
+1   _Nouns Nouns _TO
+1   _Noun Noun _Nouns
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _Prep Prep _Noun
+1   _Pause Pause _Prep
+1   S2 VB _Pause
+1   _Punc Punc
+1   S2 VB _Punc
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _PRP PRP _Noun
+1   S2 OTH _PRP
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _ADV ADV _Adj
+1   S2 Noun _ADV
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VB VB _VBN
+1   _MD MD _VB
+1   S2 PRP _MD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _OTH OTH _Poss_pron
+1   _Det Det _OTH
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _ADV ADV _Det
+1   _CC CC _ADV
+1   _Pause Pause _CC
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Det Det _Punc
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _PRP PRP _Noun
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Qmark Qmark _Punc
+1   _NNP NNP _Qmark
+1   _Prep Prep _NNP
+1   _Noun Noun _Prep
+1   _Poss_pron Poss_pron _Noun
+1   _Noun Noun _Poss_pron
+1   _TO TO _Noun
+1   _VerbT VerbT _TO
+1   _PRP PRP _VerbT
+1   _CONJ CONJ _PRP
+1   _Noun Noun _CONJ
+1   _Poss_pron Poss_pron _Noun
+1   _Noun Noun _Poss_pron
+1   _PRP PRP _Noun
+1   S2 MD _PRP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _ADV ADV _Noun
+1   _VBP VBP _ADV
+1   _Nouns Nouns _VBP
+1   _Adj Adj _Nouns
+1   _Noun Noun _Adj
+1   _CONJ CONJ _Noun
+1   _Adv Adv _CONJ
+1   S2 CC _Adv
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _Adv Adv _Adv
+1   _Noun Noun _Adv
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Adv Adv _Noun
+1   _MD MD _Adv
+1   _PRP PRP _MD
+1   S2 _So _PRP
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _PRP PRP _Adv
+1   _VBN VBN _PRP
+1   _Nouns Nouns _VBN
+1   _Number Number _Nouns
+1   _VBG VBG _Number
+1   _Pause Pause _VBG
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   S2 Noun _Det
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _VB VB _PRP
+1   _TO TO _VB
+1   _VB VB _TO
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 Det _Pause
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _Pause Pause _Adj
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Adv Adv _Noun
+1   _OTH OTH _Adv
+1   S2 PRP _OTH
+1   _Qmark Qmark
+1   _Nouns Nouns _Qmark
+1   _VBG VBG _Nouns
+1   _Noun Noun _VBG
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Pause Pause _Noun
+1   S2 Qword _Pause
+1   _Qmark Qmark
+1   _ADV ADV _Qmark
+1   _Qword Qword _ADV
+1   _Pause Pause _Qword
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _Poss_pron Poss_pron _Adj
+1   _Prep Prep _Poss_pron
+1   S2 VB _Prep
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Number Number _Noun
+1   _Pause Pause _Number
+1   _PRP PRP _Pause
+1   _OTH OTH _PRP
+1   S2 Adv _OTH
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _ADV ADV _Adj
+1   S2 Noun _ADV
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Number Number _Noun
+1   _Poss_pron Poss_pron _Number
+1   _OTH OTH _Poss_pron
+1   _Adv Adv _OTH
+1   _Pause Pause _Adv
+1   S2 Noun _Pause
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _ADV ADV _Adj
+1   S2 Noun _ADV
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _ADV ADV _Adj
+1   _OTH OTH _ADV
+1   _PRP PRP _OTH
+1   _VerbT VerbT _PRP
+1   _PRP PRP _VerbT
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _VBP VBP _Pause
+1   _PRP PRP _VBP
+1   _Pause Pause _PRP
+1   S2 UH _Pause
+1   _Punc Punc
+1   _ADV ADV _Punc
+1   S2 Noun _ADV
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VBP VBP _Adv
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _OTH OTH _Adv
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Adv Adv _Pause
+1   _VB VB _Adv
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _RBR RBR _Punc
+1   _VBG VBG _RBR
+1   S2 Noun _VBG
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Adj Adj _Prep
+1   _Noun Noun _Adj
+1   _VB VB _Noun
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _ADV ADV _Pause
+1   _OTH OTH _ADV
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 Det _Pause
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Prep Prep _Nouns
+1   _OTH OTH _Prep
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Det Det _Pause
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _VB VB _PRP
+1   _Noun Noun _VB
+1   _PRP PRP _Noun
+1   _Pause Pause _PRP
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VB VB _Prep
+1   _TO TO _VB
+1   _Noun Noun _TO
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Adj Adj _Det
+1   _VB VB _Adj
+1   _Adv Adv _VB
+1   _VB VB _Adv
+1   _Pause Pause _VB
+1   S2 UH _Pause
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _VB VB _PRP
+1   _Noun Noun _VB
+1   S2 PRP _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   S2 PRP _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _PRP PRP _Det
+1   _VB VB _PRP
+1   _Pause Pause _VB
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   S2 PRP _Noun
+1   _Qmark Qmark
+1   _Nouns Nouns _Qmark
+1   _CONJ CONJ _Nouns
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _PRP PRP _Noun
+1   _MD MD _PRP
+1   _Pause Pause _MD
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VB VB _Adv
+1   _Adv Adv _VB
+1   _MD MD _Adv
+1   S2 PRP _MD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Number Number _Noun
+1   _VBN VBN _Number
+1   _OTH OTH _VBN
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _OTH OTH _Pause
+1   _Noun Noun _OTH
+1   _TO TO _Noun
+1   _Prep Prep _TO
+1   _VB VB _Prep
+1   _TO TO _VB
+1   _VBD VBD _TO
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Noun _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _VBP VBP _Poss_pron
+1   _Qword Qword _VBP
+1   _Pause Pause _Qword
+1   S2 Adv _Pause
+1   _Pause Pause
+1   S2 Proper _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VB VB _Prep
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _VB VB _Pause
+1   _Noun Noun _VB
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _ADV ADV _Noun
+1   S2 Noun _ADV
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _Adv Adv _Adv
+1   _VBP VBP _Adv
+1   _Pause Pause _VBP
+1   S2 VB _Pause
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _Noun Noun _Adj
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _Noun Noun _Adj
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _Adv Adv _Adj
+1   _Nouns Nouns _Adv
+1   _Pause Pause _Nouns
+1   S2 OTH _Pause
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Prep Prep _Det
+1   S2 Adv _Prep
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _Prep Prep _Proper
+1   _PRP PRP _Prep
+1   S2 VB _PRP
+1   _Pause Pause
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _Det Det _Adv
+1   _OTH OTH _Det
+1   S2 Wh_pro _OTH
+1   _Pause Pause
+1   _VB VB _Pause
+1   _Adv Adv _VB
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VB VB _Det
+1   S2 Noun _VB
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _Det Det _Prep
+1   _Noun Noun _Det
+1   _VBD VBD _Noun
+1   _Adv Adv _VBD
+1   _VerbT VerbT _Adv
+1   S2 PRP _VerbT
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Noun _Noun
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   S2 Noun _Noun
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _Prep Prep _Adv
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Adj Adj _Prep
+1   _Noun Noun _Adj
+1   S2 Qword _Noun
+1   _Pause Pause
+1   _Number Number _Pause
+1   _Noun Noun _Number
+1   S2 Noun _Noun
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _ADV ADV _Adj
+1   _Noun Noun _ADV
+1   _Pause Pause _Noun
+1   _Number Number _Pause
+1   _Noun Noun _Number
+1   S2 Noun _Noun
+1   _Pause Pause
+1   _OTH OTH _Pause
+1   _Noun Noun _OTH
+1   _Punc Punc _Noun
+1   _PRP PRP _Punc
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _Noun Noun _Adv
+1   _PRP PRP _Noun
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _OTH OTH _Pause
+1   _Proper Proper _OTH
+1   _Punc Punc _Proper
+1   _VB VB _Punc
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _OTH OTH
+1   _Pause Pause _OTH
+1   _Proper Proper _Pause
+1   _Punc Punc _Proper
+1   _VBN VBN _Punc
+1   _VBD VBD _VBN
+1   _PRP PRP _VBD
+1   _VB VB _PRP
+1   _Adv Adv _VB
+1   _VBD VBD _Adv
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _VBD VBD _PRP
+1   _Pause Pause _VBD
+1   _Prep Prep _Pause
+1   _VB VB _Prep
+1   _TO TO _VB
+1   _Noun Noun _TO
+1   _Adv Adv _Noun
+1   _VBD VBD _Adv
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _VBD VBD _Pause
+1   _PRP PRP _VBD
+1   _Prep Prep _PRP
+1   _Det Det _Prep
+1   _Prep Prep _Det
+1   _CC CC _Prep
+1   _OTH OTH _CC
+1   _Pause Pause _OTH
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Punc Punc _Adj
+1   _Det Det _Punc
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _VB VB _Noun
+1   _VBD VBD _VB
+1   S2 PRP _VBD
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _PRP PRP _Adv
+1   _VBP VBP _PRP
+1   _TO TO _VBP
+1   _Noun Noun _TO
+1   _PRP PRP _Noun
+1   S2 Qword _PRP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _VBP VBP _Noun
+1   _PRP PRP _VBP
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _Adv Adv _Adj
+1   _Pause Pause _Adv
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   S2 UH _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Pause Pause _Noun
+1   _Det Det _Pause
+1   _VB VB _Det
+1   _PRP PRP _VB
+1   _OTH OTH _PRP
+1   _Qword Qword _OTH
+1   _OTH OTH _Qword
+1   S2 Det _OTH
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _Nouns Nouns _Prep
+1   _Adj Adj _Nouns
+1   _OTH OTH _Adj
+1   _Det Det _OTH
+1   _Adj Adj _Det
+1   _Det Det _Adj
+1   _Nouns Nouns _Det
+1   _Qword Qword _Nouns
+1   _Noun Noun _Qword
+1   _Noun Noun _Noun
+1   _VBN VBN _Noun
+1   _TO TO _VBN
+1   _Prep Prep _TO
+1   _OTH OTH _Prep
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _Prep Prep _OTH
+1   _Pause Pause _Prep
+1   _Nouns Nouns _Pause
+1   _Det Det _Nouns
+1   _OTH OTH _Det
+1   _Noun Noun _OTH
+1   S2 Prep _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _TO TO _VB
+1   _VBG VBG _TO
+1   _Adv Adv _VBG
+1   _OTH OTH _Adv
+1   _Adv Adv _OTH
+1   S2 Prep _Adv
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Adv Adv _Adv
+1   _Noun Noun _Adv
+1   _Adv Adv _Noun
+1   _Det Det _Adv
+1   _OTH OTH _Det
+1   _Adv Adv _OTH
+1   _Pause Pause _Adv
+1   S2 Proper _Pause
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _PRP PRP _VB
+1   _Noun Noun _PRP
+1   _Qword Qword _Noun
+1   _Pause Pause _Qword
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Pause Pause _Adj
+1   _VB VB _Pause
+1   _PRP PRP _VB
+1   _VB VB _PRP
+1   S2 Qword _VB
+1   _Pause Pause
+1   _NNPS NNPS _Pause
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Pause Pause _VBG
+1   _Proper Proper _Pause
+1   _VBP VBP _Proper
+1   S2 PRP _VBP
+1   _Qmark Qmark
+1   _Det Det _Qmark
+1   _VBP VBP _Det
+1   _Noun Noun _VBP
+1   _OTH OTH _Noun
+1   S2 Wh_pro _OTH
+1   _Qmark Qmark
+1   _Wh_pro Wh_pro _Qmark
+1   _Det Det _Wh_pro
+1   _CONJ CONJ _Det
+1   S2 VBG _CONJ
+1   _Pause Pause
+1   _NNPS NNPS _Pause
+1   S2 Det _NNPS
+1   _Qmark Qmark
+1   _NNPS NNPS _Qmark
+1   _Det Det _NNPS
+1   _VBP VBP _Det
+1   S2 Wh_pro _VBP
+1   _Pause Pause
+1   _VBP VBP _Pause
+1   _Det Det _VBP
+1   _PRP PRP _Det
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   _PRP PRP _VBP
+1   _CC CC _PRP
+1   _NNPS NNPS _CC
+1   _Det Det _NNPS
+1   S2 Noun _Det
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VBN VBN _Det
+1   _PRP PRP _VBN
+1   _VB VB _PRP
+1   _Adv Adv _VB
+1   _VBD VBD _Adv
+1   S2 PRP _VBD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _VBD VBD _Det
+1   _PRP PRP _VBD
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   S2 Noun _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   S2 Noun _Noun
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _VBG VBG _Nouns
+1   _Det Det _VBG
+1   _Qword Qword _Det
+1   _Prep Prep _Qword
+1   _Noun Noun _Prep
+1   _VBG VBG _Noun
+1   _OTH OTH _VBG
+1   _Noun Noun _OTH
+1   S2 Det _Noun
+1   _Pause Pause
+1   _ADV ADV _Pause
+1   _PRP PRP _ADV
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _VBG VBG _Noun
+1   _Pause Pause _VBG
+1   _VB VB _Pause
+1   _PRP PRP _VB
+1   _Adv Adv _PRP
+1   S2 UH _Adv
+1   _Pause Pause
+1   _MD MD _Pause
+1   _Nouns Nouns _MD
+1   _Adv Adv _Nouns
+1   _CONJ CONJ _Adv
+1   _Prep Prep _CONJ
+1   _Det Det _Prep
+1   _OTH OTH _Det
+1   _PRP PRP _OTH
+1   _Wh_pro Wh_pro _PRP
+1   _OTH OTH _Wh_pro
+1   S2 Det _OTH
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Noun Noun _Adj
+1   _Pause Pause _Noun
+1   S2 VB _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _VBP VBP _Prep
+1   S2 PRP _VBP
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Nouns Nouns _Prep
+1   S2 Wh_pro _Nouns
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Adj Adj _Adv
+1   _PRP PRP _Adj
+1   S2 Det _PRP
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   _Wh_pro Wh_pro _VBP
+1   S2 Adv _Wh_pro
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _Adv Adv _VB
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Det Det _Noun
+1   S2 Noun _Det
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _TO TO _Noun
+1   _Nouns Nouns _TO
+1   _Prep Prep _Nouns
+1   _PRP PRP _Prep
+1   _VB VB _PRP
+1   S2 PRP _VB
+1   _Pause Pause
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VB VB _VBN
+1   _TO TO _VB
+1   _VB VB _TO
+1   _Noun Noun _VB
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Det Det _Det
+1   S2 CC _Det
+1   _Pause Pause
+1   _VB VB _Pause
+1   _PRP PRP _VB
+1   _Pause Pause _PRP
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Pause Pause _Pause
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Adv Adv _Adj
+1   _CONJ CONJ _Adv
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   S2 Prep _Det
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   S2 VB _Adj
+1   _Pause Pause
+1   _RBR RBR _Pause
+1   _CONJ CONJ _RBR
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Nouns Nouns _Noun
+1   _OTH OTH _Nouns
+1   _Number Number _OTH
+1   _Det Det _Number
+1   _Prep Prep _Det
+1   _CC CC _Prep
+1   S2 Pause _CC
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   S2 VB _Adj
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _VB VB _Adj
+1   _TO TO _VB
+1   _PRP PRP _TO
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Qmark Qmark
+1   _VBP VBP _Qmark
+1   _PRP PRP _VBP
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _Aux Aux _PRP
+1   _Wh_pro Wh_pro _Aux
+1   _Pause Pause _Wh_pro
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _VBD VBD _Adv
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Prep Prep _Nouns
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _Noun Noun _Adv
+1   _Noun Noun _Noun
+1   _PRP PRP _Noun
+1   _VBD VBD _PRP
+1   _Noun Noun _VBD
+1   _OTH OTH _Noun
+1   _Pause Pause _OTH
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _VB VB _Pause
+1   _Det Det _VB
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _VB VB _Noun
+1   _TO TO _VB
+1   _VBD VBD _TO
+1   _Pause Pause _VBD
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _PRP PRP _Pause
+1   _Det Det _PRP
+1   _Noun Noun _Det
+1   _Noun Noun _Noun
+1   _Prep Prep _Noun
+1   _VBG VBG _Prep
+1   _Noun Noun _VBG
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _Noun Noun _Adv
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _VBG VBG _Noun
+1   _Noun Noun _VBG
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   S2 Poss_pron _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   _PRP PRP _VBP
+1   _Qword Qword _PRP
+1   _VBP VBP _Qword
+1   S2 Det _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _Nouns Nouns _VBP
+1   _VBG VBG _Nouns
+1   _Nouns Nouns _VBG
+1   _Prep Prep _Nouns
+1   _VBG VBG _Prep
+1   _Nouns Nouns _VBG
+1   _Noun Noun _Nouns
+1   _Pause Pause _Noun
+1   S2 VB _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Adj Adj _Adj
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _ADV ADV _Prep
+1   _Pause Pause _ADV
+1   _Nouns Nouns _Pause
+1   _Det Det _Nouns
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Nouns Nouns _Prep
+1   _Noun Noun _Nouns
+1   _Noun Noun _Noun
+1   S2 Proper _Noun
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   S2 VB _Adj
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _OTH OTH _Noun
+1   _Adv Adv _OTH
+1   _Noun Noun _Adv
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _TO TO _Noun
+1   _VB VB _TO
+1   _Noun Noun _VB
+1   _PRP PRP _Noun
+1   S2 Adv _PRP
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _PRP PRP _Adv
+1   _Noun Noun _PRP
+1   _OTH OTH _Noun
+1   _PRP PRP _OTH
+1   _PRP PRP _PRP
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _VBN VBN _Noun
+1   _Noun Noun _VBN
+1   _VBN VBN _Noun
+1   _Det Det _VBN
+1   _CONJ CONJ _Det
+1   _Adv Adv _CONJ
+1   _Noun Noun _Adv
+1   _Det Det _Noun
+1   _VBD VBD _Det
+1   _PRP PRP _VBD
+1   _OTH OTH _PRP
+1   _Noun Noun _OTH
+1   _Prep Prep _Noun
+1   _VBD VBD _Prep
+1   _PRP PRP _VBD
+1   _CONJ CONJ _PRP
+1   _Pause Pause _CONJ
+1   _Noun Noun _Pause
+1   S2 PRP _Noun
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _Noun Noun _Adv
+1   _PRP PRP _Noun
+1   S2 MD _PRP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _PRP PRP _VB
+1   _Adv Adv _PRP
+1   _Pause Pause _Adv
+1   S2 OTH _Pause
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Punc Punc
+1   S2 UH _Punc
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _CC CC _VB
+1   S2 VB _CC
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _VBN VBN _Punc
+1   _VBG VBG _VBN
+1   S2 Noun _VBG
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Noun _Noun
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VB VB _Adv
+1   _Det Det _VB
+1   _Wh_pro Wh_pro _Det
+1   _Pause Pause _Wh_pro
+1   S2 UH _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Pause Pause _Noun
+1   _Det Det _Pause
+1   _Adv Adv _Det
+1   _PRP PRP _Adv
+1   _VBD VBD _PRP
+1   _Pause Pause _VBD
+1   _Det Det _Pause
+1   _Adv Adv _Det
+1   _PRP PRP _Adv
+1   S2 Noun _PRP
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _Adv Adv _PRP
+1   _VBD VBD _Adv
+1   _PRP PRP _VBD
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _Pause Pause _PRP
+1   _PRP PRP _Pause
+1   _VBG VBG _PRP
+1   _PRP PRP _VBG
+1   _VB VB _PRP
+1   _PRP PRP _VB
+1   _VBD VBD _PRP
+1   _Pause Pause _VBD
+1   _Prep Prep _Pause
+1   _Prep Prep _Prep
+1   _Noun Noun _Prep
+1   _Wh_pro Wh_pro _Noun
+1   _OTH OTH _Wh_pro
+1   S2 Det _OTH
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _CONJ CONJ _Adj
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _NNPS NNPS _Pause
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Pause Pause _VBG
+1   _Proper Proper _Pause
+1   _VBP VBP _Proper
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _NNP NNP _Pause
+1   _CONJ CONJ _NNP
+1   _Proper Proper _CONJ
+1   _Poss_pron Poss_pron _Proper
+1   _Prep Prep _Poss_pron
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Nouns Nouns _Prep
+1   _Noun Noun _Nouns
+1   _Det Det _Noun
+1   _CC CC _Det
+1   _AdjS AdjS _CC
+1   _Det Det _AdjS
+1   _Noun Noun _Det
+1   S2 PRP _Noun
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _MD MD _PRP
+1   _Pause Pause _MD
+1   _Noun Noun _Pause
+1   _PRP PRP _Noun
+1   _VBN VBN _PRP
+1   _VB VB _VBN
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   S2 PRP _VB
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _VB VB _PRP
+1   S2 _So _VB
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   S2 VB _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _MD MD _Noun
+1   S2 Noun _MD
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _MD MD _Noun
+1   S2 Noun _MD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _MD MD _Noun
+1   _PRP PRP _MD
+1   _CC CC _PRP
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Adj Adj _Proper
+1   _Pause Pause _Adj
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _VB VB _Det
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _MD MD _Noun
+1   _PRP PRP _MD
+1   S2 Adv _PRP
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _Noun Noun _Adv
+1   _TO TO _Noun
+1   _NNPS NNPS _TO
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Prep Prep _VBG
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   S2 PRP _Noun
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _VB VB _PRP
+1   S2 _So _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   S2 Adv _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _CC CC _Det
+1   _Noun Noun _CC
+1   S2 OTH _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   S2 Det _Noun
+1   _Punc Punc
+1   _Prep Prep _Punc
+1   _OTH OTH _Prep
+1   _Noun Noun _OTH
+1   S2 Poss_pron _Noun
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VBP VBP _Adv
+1   _PRP PRP _VBP
+1   _Pause Pause _PRP
+1   S2 Det _Pause
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _Det Det _Adv
+1   _OTH OTH _Det
+1   _Wh_pro Wh_pro _OTH
+1   _Pause Pause _Wh_pro
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Adjc Adjc _Pause
+1   _VBN VBN _Adjc
+1   S2 Noun _VBN
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 PRP _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _PRP PRP _Noun
+1   _Prep Prep _PRP
+1   S2 VB _Prep
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _VBP VBP _Noun
+1   S2 Noun _VBP
+1   _OTH OTH
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   _Prep Prep _Noun
+1   _Det Det _Prep
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Prep Prep _Adv
+1   S2 VB _Prep
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _Prep Prep _PRP
+1   S2 VB _Prep
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _VBP VBP _Noun
+1   _Noun Noun _VBP
+1   _Det Det _Noun
+1   _CC CC _Det
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _VBP VBP _Adv
+1   S2 PRP _VBP
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Pause Pause _Noun
+1   _Adv Adv _Pause
+1   _VBN VBN _Adv
+1   _Pause Pause _VBN
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Nouns Nouns _Noun
+1   _Det Det _Nouns
+1   _VBD VBD _Det
+1   _OTH OTH _VBD
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _PRP PRP _Adj
+1   _Pause Pause _PRP
+1   S2 VB _Pause
+1   _Pause Pause
+1   _VB VB _Pause
+1   _PRP PRP _VB
+1   S2 UH _PRP
+1   _Punc Punc
+1   S2 VB _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   S2 Adv _Det
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Noun Noun _Det
+1   _Pause Pause _Noun
+1   S2 VB _Pause
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _VB VB _Poss_pron
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 VB _Pause
+1   _Punc Punc
+1   S2 Adv _Punc
+1   _Punc Punc
+1   _Det Det _Punc
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _VB VB _PRP
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _Wh_pro Wh_pro _Qmark
+1   _OTH OTH _Wh_pro
+1   S2 PRP _OTH
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _OTH OTH _Adv
+1   S2 VB _OTH
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Pause Pause _Noun
+1   _VB VB _Pause
+1   _TO TO _VB
+1   _VBG VBG _TO
+1   _PRP PRP _VBG
+1   _VBP VBP _PRP
+1   S2 Qword _VBP
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   S2 Noun _Adj
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   S2 Noun _Det
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adv Adv _Noun
+1   _Proper Proper _Adv
+1   _Noun Noun _Proper
+1   S2 Det _Noun
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _Prep Prep _PRP
+1   S2 VB _Prep
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Prep Prep _Adv
+1   S2 VB _Prep
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _PRP PRP _Det
+1   _Noun Noun _PRP
+1   _OTH OTH _Noun
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   S2 VB _Pause
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Adv Adv _Adv
+1   _VBG VBG _Adv
+1   _Pause Pause _VBG
+1   _VB VB _Pause
+1   _PRP PRP _VB
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Adj Adj _Nouns
+1   S2 PRP _Adj
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _TO TO _PRP
+1   _VBG VBG _TO
+1   _OTH OTH _VBG
+1   _Wh_pro Wh_pro _OTH
+1   _VB VB _Wh_pro
+1   _CC CC _VB
+1   _Adv Adv _CC
+1   _Adv Adv _Adv
+1   S2 VB _Adv
+1   _Punc Punc
+1   _Prep Prep _Punc
+1   _Nouns Nouns _Prep
+1   _Poss_pron Poss_pron _Nouns
+1   _Noun Noun _Poss_pron
+1   _OTH OTH _Noun
+1   S2 PRP _OTH
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _VBD VBD _Det
+1   S2 Noun _VBD
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Qmark Qmark
+1   _Poss_pron Poss_pron _Qmark
+1   _Noun Noun _Poss_pron
+1   _PRP PRP _Noun
+1   _MD MD _PRP
+1   _Pause Pause _MD
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _VB VB _Noun
+1   S2 PRP _VB
+1   _Punc Punc
+1   _Poss_pron Poss_pron _Punc
+1   S2 Noun _Poss_pron
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _VB VB _PRP
+1   _PRP PRP _VB
+1   _VB VB _PRP
+1   S2 Qword _VB
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _Nouns Nouns _Prep
+1   S2 PRP _Nouns
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Poss_pron Poss_pron _Adv
+1   S2 VB _Poss_pron
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _ADV ADV _Det
+1   S2 Noun _ADV
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _VBN VBN _Prep
+1   _VBP VBP _VBN
+1   _PRP PRP _VBP
+1   S2 CC _PRP
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Prep Prep _Det
+1   _Adv Adv _Prep
+1   _PRP PRP _Adv
+1   _VBN VBN _PRP
+1   S2 PRP _VBN
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Punc Punc _Det
+1   _Adv Adv _Punc
+1   _VBD VBD _Adv
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Det _Pause
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Adj Adj _PRP
+1   _Det Det _Adj
+1   _OTH OTH _Det
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Adv Adv _Pause
+1   _Poss_pron Poss_pron _Adv
+1   _Adv Adv _Poss_pron
+1   _VBP VBP _Adv
+1   _Det Det _VBP
+1   S2 CC _Det
+1   _Qmark Qmark
+1   S2 Adv _Qmark
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Det Det _Adv
+1   _VB VB _Det
+1   _VBD VBD _VB
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   S2 Det _Adv
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _CC CC _PRP
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   S2 CC _Det
+1   _Punc Punc
+1   _Poss_pron Poss_pron _Punc
+1   S2 Noun _Poss_pron
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Poss_pron Poss_pron _Punc
+1   S2 Noun _Poss_pron
+1   _Qmark Qmark
+1   _Det Det _Qmark
+1   _Prep Prep _Det
+1   _Adv Adv _Prep
+1   _Poss_pron Poss_pron _Adv
+1   _Noun Noun _Poss_pron
+1   _PRP PRP _Noun
+1   S2 Noun _PRP
+1   _Punc Punc
+1   _Det Det _Punc
+1   _Pause Pause _Det
+1   S2 Det _Pause
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Punc Punc _Nouns
+1   S2 Det _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   _Nouns Nouns _Pause
+1   _Pause Pause _Nouns
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VBD VBD _Det
+1   _VerbT VerbT _VBD
+1   S2 PRP _VerbT
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _VerbT VerbT _PRP
+1   S2 Qword _VerbT
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _VBD VBD _PRP
+1   _PRP PRP _VBD
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   S2 Det _Noun
+1   _Pause Pause
+1   _RBR RBR _Pause
+1   _VBD VBD _RBR
+1   S2 PRP _VBD
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _Poss_pron Poss_pron _Adv
+1   S2 Noun _Poss_pron
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Poss_pron Poss_pron _Punc
+1   S2 Noun _Poss_pron
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _Pause Pause _Adj
+1   S2 Adj _Pause
+1   _Punc Punc
+1   S2 Adj _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _Prep Prep _PRP
+1   _VBG VBG _Prep
+1   _CONJ CONJ _VBG
+1   _Nouns Nouns _CONJ
+1   _VBP VBP _Nouns
+1   S2 Adv _VBP
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   S2 VBP _Adv
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _VBP VBP _PRP
+1   S2 Qword _VBP
+1   _Qmark Qmark
+1   _Nouns Nouns _Qmark
+1   _Prep Prep _Nouns
+1   _VB VB _Prep
+1   _PRP PRP _VB
+1   _VB VB _PRP
+1   _Wh_pro Wh_pro _VB
+1   _Pause Pause _Wh_pro
+1   _PRP PRP _Pause
+1   S2 VB _PRP
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _PRP PRP _Adv
+1   _Noun Noun _PRP
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Qmark Qmark
+1   _Nouns Nouns _Qmark
+1   _Prep Prep _Nouns
+1   _Adv Adv _Prep
+1   _Noun Noun _Adv
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   _Wh_pro Wh_pro _VB
+1   S2 CC _Wh_pro
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   S2 RBR _Nouns
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Nouns Nouns _Noun
+1   _VB VB _Nouns
+1   _Qword Qword _VB
+1   _Pause Pause _Qword
+1   S2 _So _Pause
+1   _Punc Punc
+1   _Pause Pause _Punc
+1   S2 Noun _Pause
+1   _Qmark Qmark
+1   _Punc Punc _Qmark
+1   _Noun Noun _Punc
+1   _CONJ CONJ _Noun
+1   _VBN VBN _CONJ
+1   _OTH OTH _VBN
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   S2 OTH _Noun
+1   _Punc Punc
+1   S2 Adj _Punc
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   S2 UH _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _CONJ CONJ _Noun
+1   _VBN VBN _CONJ
+1   _VBP VBP _VBN
+1   _PRP PRP _VBP
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   _Qword Qword _VB
+1   _Pause Pause _Qword
+1   S2 _So _Pause
+1   _Pause Pause
+1   _Poss_pron Poss_pron _Pause
+1   _CONJ CONJ _Poss_pron
+1   _Prep Prep _CONJ
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   S2 VB _Det
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _CONJ CONJ _Noun
+1   _Prep Prep _CONJ
+1   _Nouns Nouns _Prep
+1   _Noun Noun _Nouns
+1   _Adv Adv _Noun
+1   _ADV ADV _Adv
+1   _PRP PRP _ADV
+1   _MD MD _PRP
+1   _CC CC _MD
+1   _Pause Pause _CC
+1   S2 OTH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Prep Prep _Noun
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   S2 Nouns _Noun
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Pause Pause _Det
+1   S2 Det _Pause
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   S2 PRP _Nouns
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Poss_pron Poss_pron _Prep
+1   S2 VB _Poss_pron
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Prep Prep _Noun
+1   _Nouns Nouns _Prep
+1   _Adv Adv _Nouns
+1   S2 Qword _Adv
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   S2 Nouns _Punc
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Adj Adj _Nouns
+1   S2 Adv _Adj
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Noun _Noun
+1   _Punc Punc
+1   S2 Nouns _Punc
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Pause Pause _Nouns
+1   S2 Nouns _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   S2 Det _Noun
+1   _Pause Pause
+1   S2 Noun _Pause
+1   _Punc Punc
+1   S2 Adv _Punc
+1   _Pause Pause
+1   _Punc Punc _Pause
+1   _Adv Adv _Punc
+1   _Pause Pause _Adv
+1   S2 _So _Pause
+1   _Punc Punc
+1   S2 Prep _Punc
+1   _Pause Pause
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _VBN VBN _CONJ
+1   _OTH OTH _VBN
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Adj Adj _Prep
+1   _Det Det _Adj
+1   S2 Nouns _Det
+1   _Qmark Qmark
+1   _Pause Pause _Qmark
+1   _Adv Adv _Pause
+1   S2 CC _Adv
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Adjc Adjc _Nouns
+1   _Poss_pron Poss_pron _Adjc
+1   _Noun Noun _Poss_pron
+1   _MD MD _Noun
+1   S2 PRP _MD
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _Det Det _Nouns
+1   _VB VB _Det
+1   _Pause Pause _VB
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _OTH OTH _Det
+1   S2 PRP _OTH
+1   _Punc Punc
+1   _Poss_pron Poss_pron _Punc
+1   S2 Noun _Poss_pron
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _CONJ CONJ _Noun
+1   _Nouns Nouns _CONJ
+1   _Det Det _Nouns
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _CONJ CONJ _Noun
+1   _VBP VBP _CONJ
+1   _Wh_pro Wh_pro _VBP
+1   _PRP PRP _Wh_pro
+1   _VBP VBP _PRP
+1   S2 Wh_pro _VBP
+1   _Pause Pause
+1   _NNPS NNPS _Pause
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Pause Pause _VBG
+1   _Proper Proper _Pause
+1   _VBP VBP _Proper
+1   S2 PRP _VBP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Poss_pron _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _CC CC _Noun
+1   _Pause Pause _CC
+1   _NNP NNP _Pause
+1   _TO TO _NNP
+1   _PRP PRP _TO
+1   _Prep Prep _PRP
+1   _VB VB _Prep
+1   _PRP PRP _VB
+1   _MD MD _PRP
+1   _Pause Pause _MD
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   S2 Adj _Proper
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Poss_pron _Noun
+1   _Pause Pause
+1   _VBN VBN _Pause
+1   _VB VB _VBN
+1   _MD MD _VB
+1   S2 PRP _MD
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   S2 Qword _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _Pause Pause _Poss_pron
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Proper Proper _CONJ
+1   _Pause Pause _Proper
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _PRP PRP _Proper
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   S2 Adv _PRP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Det Det _OTH
+1   _OTH OTH _Det
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _VBG VBG _OTH
+1   _OTH OTH _VBG
+1   _Adv Adv _OTH
+1   _Proper Proper _Adv
+1   _VBN VBN _Proper
+1   _Adv Adv _VBN
+1   _Det Det _Adv
+1   _CC CC _Det
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _CONJ CONJ _Noun
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _CC CC _Wh_pro
+1   _Proper Proper _CC
+1   _CONJ CONJ _Proper
+1   _Noun Noun _CONJ
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _TO TO _Det
+1   _Adv Adv _TO
+1   _Noun Noun _Adv
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Pause Pause _Wh_pro
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Noun Noun _Wh_pro
+1   _OTH OTH _Noun
+1   _Proper Proper _OTH
+1   _OTH OTH _Proper
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _CONJ CONJ _OTH
+1   _OTH OTH _CONJ
+1   _Adv Adv _OTH
+1   _OTH OTH _Adv
+1   _Adv Adv _OTH
+1   _Det Det _Adv
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _CC CC _Proper
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Proper Proper _Det
+1   _Proper Proper _Proper
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _Det Det _VB
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _TO TO _VB
+1   _Adv Adv _TO
+1   _VBD VBD _Adv
+1   _Nouns Nouns _VBD
+1   _Adj Adj _Nouns
+1   _Adj Adj _Adj
+1   _CC CC _Adj
+1   _Pause Pause _CC
+1   _Nouns Nouns _Pause
+1   _OTH OTH _Nouns
+1   _Proper Proper _OTH
+1   _VBG VBG _Proper
+1   _Noun Noun _VBG
+1   _TO TO _Noun
+1   _Adv Adv _TO
+1   _Det Det _Adv
+1   _VBD VBD _Det
+1   _Noun Noun _VBD
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   _Det Det _Nouns
+1   _Pause Pause _Det
+1   _Nouns Nouns _Pause
+1   _Det Det _Nouns
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _VB VB _Noun
+1   _TO TO _VB
+1   _VBD VBD _TO
+1   _Nouns Nouns _VBD
+1   _CC CC _Nouns
+1   _Nouns Nouns _CC
+1   _Wh_prop Wh_prop _Nouns
+1   _Noun Noun _Wh_prop
+1   _Det Det _Noun
+1   _VBN VBN _Det
+1   _PRP PRP _VBN
+1   S2 Adv _PRP
+1   _Pause Pause
+1   _VBD VBD _Pause
+1   _OTH OTH _VBD
+1   _Noun Noun _OTH
+1   _VB VB _Noun
+1   _TO TO _VB
+1   _Noun Noun _TO
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _PRP PRP _VB
+1   _Qword Qword _PRP
+1   _VBP VBP _Qword
+1   _Pause Pause _VBP
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _Pause Pause _Poss_pron
+1   _Det Det _Pause
+1   S2 CC _Det
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _PRP PRP _Pause
+1   _Nouns Nouns _PRP
+1   _VBG VBG _Nouns
+1   _Adj Adj _VBG
+1   S2 Det _Adj
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Noun Noun _Nouns
+1   _TO TO _Noun
+1   _VBN VBN _TO
+1   _VB VB _VBN
+1   _MD MD _VB
+1   _Nouns Nouns _MD
+1   _Noun Noun _Nouns
+1   _Qword Qword _Noun
+1   _ADV ADV _Qword
+1   S2 Noun _ADV
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Adv Adv _Pause
+1   _Pause Pause _Adv
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Poss_pron Poss_pron _Noun
+1   _Pause Pause _Poss_pron
+1   S2 VB _Pause
+1   _Punc Punc
+1   S2 NNP _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Adv Adv _Det
+1   _OTH OTH _Adv
+1   S2 PRP _OTH
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _TO TO _Poss_pron
+1   _Noun Noun _TO
+1   _PRP PRP _Noun
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _Pause Pause _PRP
+1   S2 Nouns _Pause
+1   _Punc Punc
+1   _VBP VBP _Punc
+1   _PRP PRP _VBP
+1   S2 VB _PRP
+1   _Pause Pause
+1   _NNP NNP _Pause
+1   S2 TO _NNP
+1   _Noun Noun
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   S2 Noun _Nouns
+1   _Adj Adj
+1   _Noun Noun _Adj
+1   _Noun Noun _Noun
+1   _Qword Qword _Noun
+1   _Noun Noun _Qword
+1   S2 PRP _Noun
+1   _Nouns Nouns
+1   _Noun Noun _Nouns
+1   _CC CC _Noun
+1   _Nouns Nouns _CC
+1   _VB VB _Nouns
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _OTH OTH _Adj
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   S2 Prep _Noun
+1   _NNP NNP
+1   _Prep Prep _NNP
+1   _Adv Adv _Prep
+1   _Adv Adv _Adv
+1   _Noun Noun _Adv
+1   S2 PRP _Noun
+1   _Noun Noun
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _Noun Noun _Noun
+1   S2 PRP _Noun
+1   _Noun Noun
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   S2 Noun _Nouns
+1   _Adj Adj
+1   _OTH OTH _Adj
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _Prep Prep _OTH
+1   _VBP VBP _Prep
+1   _Nouns Nouns _VBP
+1   S2 Poss_pron _Nouns
+1   _Nouns Nouns
+1   _VBN VBN _Nouns
+1   _Noun Noun _VBN
+1   _Nouns Nouns _Noun
+1   _Adj Adj _Nouns
+1   S2 Prep _Adj
+1   _Adj Adj
+1   _OTH OTH _Adj
+1   _VBG VBG _OTH
+1   _Adv Adv _VBG
+1   _VBP VBP _Adv
+1   S2 Det _VBP
+1   _NNP NNP
+1   _Prep Prep _NNP
+1   _Noun Noun _Prep
+1   _CONJ CONJ _Noun
+1   _ADV ADV _CONJ
+1   S2 PRP _ADV
+1   _Noun Noun
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBG VBG _Prep
+1   S2 PRP _VBG
+1   _Adj Adj
+1   _CC CC _Adj
+1   _Adj Adj _CC
+1   _Noun Noun _Adj
+1   S2 UH _Noun
+1   _Adj Adj
+1   S2 Adv _Adj
+1   _Nouns Nouns
+1   _Noun Noun _Nouns
+1   _PRP PRP _Noun
+1   _Nouns Nouns _PRP
+1   _Poss_pron Poss_pron _Nouns
+1   S2 Noun _Poss_pron
+1   _Adj Adj
+1   _Noun Noun _Adj
+1   _Noun Noun _Noun
+1   S2 CC _Noun
+1   _NNP NNP
+1   _Prep Prep _NNP
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _Noun Noun _Adv
+1   _Det Det _Noun
+1   _OTH OTH _Det
+1   S2 PRP _OTH
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _TO TO _Noun
+1   _VB VB _TO
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _Det Det _Adv
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _Pause Pause _PRP
+1   _NNP NNP _Pause
+1   _TO TO _NNP
+1   _VB VB _TO
+1   _ADV ADV _VB
+1   _OTH OTH _ADV
+1   _VB VB _OTH
+1   _Pause Pause _VB
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Prep Prep _Adj
+1   _Pause Pause _Prep
+1   S2 Adv _Pause
+1   _Pause Pause
+1   S2 Adv _Pause
+1   _Punc Punc
+1   S2 Proper _Punc
+1   _Punc Punc
+1   _NNPS NNPS _Punc
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Pause Pause _VBG
+1   S2 Proper _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   _Pause Pause _VB
+1   S2 UH _Pause
+1   _Pause Pause
+1   _VBG VBG _Pause
+1   _Nouns Nouns _VBG
+1   _OTH OTH _Nouns
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _PRP PRP _Noun
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _OTH OTH _PRP
+1   _Adv Adv _OTH
+1   S2 Prep _Adv
+1   _Pause Pause
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _VB VB _Pause
+1   _Adv Adv _VB
+1   _VB VB _Adv
+1   S2 CC _VB
+1   _Pause Pause
+1   _OTH OTH _Pause
+1   _Noun Noun _OTH
+1   _ADV ADV _Noun
+1   _Noun Noun _ADV
+1   _OTH OTH _Noun
+1   _CC CC _OTH
+1   _OTH OTH _CC
+1   _Det Det _OTH
+1   _PRP PRP _Det
+1   _Adj Adj _PRP
+1   _OTH OTH _Adj
+1   _CC CC _OTH
+1   _OTH OTH _CC
+1   _Det Det _OTH
+1   _Noun Noun _Det
+1   _OTH OTH _Noun
+1   _OTH OTH _OTH
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _PRP PRP _Noun
+1   _Noun Noun _PRP
+1   S2 Det _Noun
+1   _Qmark Qmark
+1   _Punc Punc _Qmark
+1   _Adv Adv _Punc
+1   _VBG VBG _Adv
+1   _PRP PRP _VBG
+1   _VBP VBP _PRP
+1   S2 Qword _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   _Nouns Nouns _Pause
+1   _Poss_pron Poss_pron _Nouns
+1   _VBG VBG _Poss_pron
+1   S2 Noun _VBG
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _VB VB _Adv
+1   _Pause Pause _VB
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _VBG VBG _Pause
+1   _CONJ CONJ _VBG
+1   _OTH OTH _CONJ
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _OTH OTH _Prep
+1   S2 PRP _OTH
+1   _Punc Punc
+1   _Prep Prep _Punc
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   S2 Adv _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   S2 Adv _Punc
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Noun Noun _Nouns
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _PRP PRP _Det
+1   _VB VB _PRP
+1   _TO TO _VB
+1   _Noun Noun _TO
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _MD MD _VB
+1   _Noun Noun _MD
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   _Poss_pron Poss_pron _Nouns
+1   _Pause Pause _Poss_pron
+1   _NNPS NNPS _Pause
+1   _Det Det _NNPS
+1   _CONJ CONJ _Det
+1   _VBG VBG _CONJ
+1   _Pause Pause _VBG
+1   S2 Proper _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   S2 Adj _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _OTH OTH _Det
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   S2 OTH _Noun
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Det Det _Proper
+1   _VBP VBP _Det
+1   _Det Det _VBP
+1   _Pause Pause _Det
+1   S2 Proper _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _VBP VBP _Poss_pron
+1   _PRP PRP _VBP
+1   _Prep Prep _PRP
+1   _Pause Pause _Prep
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _Adv Adv _Pause
+1   S2 VB _Adv
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _AdjS AdjS _Prep
+1   _Det Det _AdjS
+1   _Pause Pause _Det
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _VBP VBP _Poss_pron
+1   S2 Det _VBP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   S2 Det _Noun
+1   _Punc Punc
+1   _VBN VBN _Punc
+1   _VB VB _VBN
+1   S2 Proper _VB
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 OTH _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _VBP VBP _Noun
+1   S2 Wh_pro _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   _Det Det _Nouns
+1   _VBP VBP _Det
+1   _Det Det _VBP
+1   _CC CC _Det
+1   _Pause Pause _CC
+1   _Proper Proper _Pause
+1   _VBG VBG _Proper
+1   _VBP VBP _VBG
+1   S2 PRP _VBP
+1   _Qmark Qmark
+1   _Det Det _Qmark
+1   _VBP VBP _Det
+1   _Noun Noun _VBP
+1   _OTH OTH _Noun
+1   S2 Wh_pro _OTH
+1   _OTH OTH
+1   _Qmark Qmark _OTH
+1   _Noun Noun _Qmark
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _Nouns Nouns _Noun
+1   _OTH OTH _Nouns
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   _Poss_pron Poss_pron _Noun
+1   _CONJ CONJ _Poss_pron
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   S2 Det _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _Proper Proper _Prep
+1   _Prep Prep _Proper
+1   _VBN VBN _Prep
+1   _VBN VBN _VBN
+1   _VB VB _VBN
+1   _PRP PRP _VB
+1   _Det Det _PRP
+1   _Noun Noun _Det
+1   _Poss_pron Poss_pron _Noun
+1   _Noun Noun _Poss_pron
+1   _CC CC _Noun
+1   S2 VB _CC
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _MD MD _Noun
+1   _PRP PRP _MD
+1   _Noun Noun _PRP
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   S2 Prep _PRP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   _OTH OTH _VB
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   _PRP PRP _VB
+1   _CC CC _PRP
+1   _Pause Pause _CC
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   _OTH OTH _Noun
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _PRP PRP _VB
+1   _Pause Pause _PRP
+1   _PRP PRP _Pause
+1   _VBD VBD _PRP
+1   _ADV ADV _VBD
+1   _OTH OTH _ADV
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   S2 Noun _Pause
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Punc Punc
+1   _PRP PRP _Punc
+1   _VBD VBD _PRP
+1   _ADV ADV _VBD
+1   _OTH OTH _ADV
+1   _PRP PRP _OTH
+1   _VerbT VerbT _PRP
+1   S2 PRP _VerbT
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   _VBD VBD _PRP
+1   _OTH OTH _VBD
+1   _PRP PRP _OTH
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   S2 VBP _PRP
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _VBD VBD _PRP
+1   _ADV ADV _VBD
+1   _PRP PRP _ADV
+1   _PRP PRP _PRP
+1   _Noun Noun _PRP
+1   _PRP PRP _Noun
+1   _Det Det _PRP
+1   _OTH OTH _Det
+1   _Adj Adj _OTH
+1   _Adv Adv _Adj
+1   _OTH OTH _Adv
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Nouns Nouns _Pause
+1   _Pause Pause _Nouns
+1   S2 UH _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _CC CC _VB
+1   _Adv Adv _CC
+1   _VB VB _Adv
+1   _PRP PRP _VB
+1   _MD MD _PRP
+1   _Pause Pause _MD
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _ADV ADV _Punc
+1   _Noun Noun _ADV
+1   S2 Prep _Noun
+1   _Punc Punc
+1   _Det Det _Punc
+1   _OTH OTH _Det
+1   _Nouns Nouns _OTH
+1   _Adj Adj _Nouns
+1   _VBP VBP _Adj
+1   S2 PRP _VBP
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _PRP PRP _Adv
+1   _VBP VBP _PRP
+1   _Wh_pro Wh_pro _VBP
+1   _Pause Pause _Wh_pro
+1   S2 Adv _Pause
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   S2 Noun _Adj
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adv Adv _Noun
+1   _PRP PRP _Adv
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _VB VB _Det
+1   _PRP PRP _VB
+1   _Noun Noun _PRP
+1   _VB VB _Noun
+1   S2 Qword _VB
+1   _Qmark Qmark
+1   _NNP NNP _Qmark
+1   _Prep Prep _NNP
+1   _VBG VBG _Prep
+1   _PRP PRP _VBG
+1   _VBP VBP _PRP
+1   S2 Qword _VBP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   S2 Noun _Poss_pron
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Prep Prep _Noun
+1   _Noun Noun _Prep
+1   _Poss_pron Poss_pron _Noun
+1   _VB VB _Poss_pron
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _PRP PRP _Det
+1   _Noun Noun _PRP
+1   _ADV ADV _Noun
+1   _MD MD _ADV
+1   _PRP PRP _MD
+1   S2 Prep _PRP
+1   _Punc Punc
+1   _Nouns Nouns _Punc
+1   _OTH OTH _Nouns
+1   _Noun Noun _OTH
+1   _Adj Adj _Noun
+1   _Pause Pause _Adj
+1   _PRP PRP _Pause
+1   _Nouns Nouns _PRP
+1   _Adv Adv _Nouns
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _Det Det _Adv
+1   _CONJ CONJ _Det
+1   _Nouns Nouns _CONJ
+1   _Pause Pause _Nouns
+1   _Nouns Nouns _Pause
+1   _Poss_pron Poss_pron _Nouns
+1   _Noun Noun _Poss_pron
+1   _CC CC _Noun
+1   S2 VB _CC
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Adv Adv _Adj
+1   _Poss_pron Poss_pron _Adv
+1   _Det Det _Poss_pron
+1   _CC CC _Det
+1   _PRP PRP _CC
+1   _Pause Pause _PRP
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Proper Proper _OTH
+1   _VBN VBN _Proper
+1   _OTH OTH _VBN
+1   _CONJ CONJ _OTH
+1   _Pause Pause _CONJ
+1   _PRP PRP _Pause
+1   _Prep Prep _PRP
+1   _Adv Adv _Prep
+1   _Poss_pron Poss_pron _Adv
+1   _Noun Noun _Poss_pron
+1   S2 PRP _Noun
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   S2 Qword _Det
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _Pause Pause _Poss_pron
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   S2 Adv _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _VBN VBN _Noun
+1   _Adj Adj _VBN
+1   _PRP PRP _Adj
+1   _Pause Pause _PRP
+1   _RBR RBR _Pause
+1   _Det Det _RBR
+1   _PRP PRP _Det
+1   _TO TO _PRP
+1   _Noun Noun _TO
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   S2 PRP _VB
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _Prep Prep _Poss_pron
+1   _Noun Noun _Prep
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _CONJ CONJ _Nouns
+1   _Noun Noun _CONJ
+1   _Noun Noun _Noun
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Noun Noun _CC
+1   _Det Det _Noun
+1   _VBD VBD _Det
+1   _Noun Noun _VBD
+1   S2 PRP _Noun
+1   _Qmark Qmark
+1   _TO TO _Qmark
+1   _Noun Noun _TO
+1   _MD MD _Noun
+1   _PRP PRP _MD
+1   _Adv Adv _PRP
+1   _Adv Adv _Adv
+1   _Adv Adv _Adv
+1   _Noun Noun _Adv
+1   _Adv Adv _Noun
+1   S2 Noun _Adv
+1   _Punc Punc
+1   _Det Det _Punc
+1   _OTH OTH _Det
+1   _Noun Noun _OTH
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _PRP PRP _Det
+1   _Noun Noun _PRP
+1   _MD MD _Noun
+1   _PRP PRP _MD
+1   _CC_or CC_or _PRP
+1   _Adv Adv _CC_or
+1   _VB VB _Adv
+1   _Adv Adv _VB
+1   _Pause Pause _Adv
+1   S2 Det _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _VBP VBP _Poss_pron
+1   _Det Det _VBP
+1   _Pause Pause _Det
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _Prep Prep _Adj
+1   _RBR RBR _Prep
+1   _VBN VBN _RBR
+1   S2 Noun _VBN
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _OTH OTH _Noun
+1   _Pause Pause _OTH
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   S2 OTH _Noun
+1   _OTH OTH
+1   _Punc Punc _OTH
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   S2 OTH _Noun
+1   _Pause Pause
+1   _MD MD _Pause
+1   _PRP PRP _MD
+1   _Adv Adv _PRP
+1   _Pause Pause _Adv
+1   _Nouns Nouns _Pause
+1   _Poss_pron Poss_pron _Nouns
+1   _TO TO _Poss_pron
+1   _Noun Noun _TO
+1   _ADV ADV _Noun
+1   _VB VB _ADV
+1   _PRP PRP _VB
+1   S2 Prep _PRP
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Noun _Noun
+1   _Punc Punc
+1   S2 Adv _Punc
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _VBP VBP _Prep
+1   _PRP PRP _VBP
+1   _Det Det _PRP
+1   _Pause Pause _Det
+1   S2 OTH _Pause
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 VB _Adv
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Punc Punc
+1   S2 Nouns _Punc
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   _PRP PRP _Adv
+1   _Noun Noun _PRP
+1   _OTH OTH _Noun
+1   S2 PRP _OTH
+1   _Pause Pause
+1   _Det Det _Pause
+1   _Pause Pause _Det
+1   _Det Det _Pause
+1   S2 Det _Det
+1   _Punc Punc
+1   S2 Proper _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VB VB _Det
+1   S2 PRP _VB
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _VB VB _Noun
+1   _Noun Noun _VB
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   S2 Noun _Noun
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   S2 Noun _Noun
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Noun Noun _Noun
+1   S2 Noun _Noun
+1   _Qmark Qmark
+1   _OTH OTH _Qmark
+1   S2 Noun _OTH
+1   _Punc Punc
+1   _VB VB _Punc
+1   _OTH OTH _VB
+1   S2 VB _OTH
+1   _Qmark Qmark
+1   _Adv Adv _Qmark
+1   _Nouns Nouns _Adv
+1   S2 Qword _Nouns
+1   _Punc Punc
+1   _Adj Adj _Punc
+1   _Adv Adv _Adj
+1   _CC CC _Adv
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _Adv Adv _Prep
+1   _ADV ADV _Adv
+1   _Pause Pause _ADV
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _Adj Adj _Prep
+1   _Det Det _Adj
+1   _VBG VBG _Det
+1   _Pause Pause _VBG
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Prep Prep _CONJ
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _CC CC _Adv
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _Noun Noun _Prep
+1   _PRP PRP _Noun
+1   _CC CC _PRP
+1   _Pause Pause _CC
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Adv Adv _Pause
+1   _Pause Pause _Adv
+1   S2 Adv _Pause
+1   _Qmark Qmark
+1   _Prep Prep _Qmark
+1   _Nouns Nouns _Prep
+1   S2 Wh_pro _Nouns
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _CC CC _PRP
+1   _Pause Pause _CC
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _Punc Punc _Pause
+1   _Noun Noun _Punc
+1   _CC CC _Noun
+1   _Noun Noun _CC
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Prep Prep _CONJ
+1   _Noun Noun _Prep
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Pause Pause
+1   _Punc Punc _Pause
+1   S2 UH _Punc
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Noun Noun _Det
+1   _PRP PRP _Noun
+1   _CONJ CONJ _PRP
+1   _Pause Pause _CONJ
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 VB _Adv
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Number Number _Pause
+1   _VB VB _Number
+1   _Pause Pause _VB
+1   _Nouns Nouns _Pause
+1   _Prep Prep _Nouns
+1   S2 Nouns _Prep
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _VBG VBG _Proper
+1   _VBN VBN _VBG
+1   _Adv Adv _VBN
+1   _VB VB _Adv
+1   _TO TO _VB
+1   _VerbT VerbT _TO
+1   _Noun Noun _VerbT
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   S2 Noun _Prep
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _TO TO _Det
+1   _Noun Noun _TO
+1   _VB VB _Noun
+1   _TO TO _VB
+1   _VBD VBD _TO
+1   _Noun Noun _VBD
+1   _Proper Proper _Noun
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _VBN VBN _CONJ
+1   _VBD VBD _VBN
+1   _Noun Noun _VBD
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Det Det _Det
+1   _VBN VBN _Det
+1   _VBD VBD _VBN
+1   _Proper Proper _VBD
+1   _CC CC _Proper
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _Adv Adv _Prep
+1   _PRP PRP _Adv
+1   _VBD VBD _PRP
+1   _VBG VBG _VBD
+1   _Adj Adj _VBG
+1   _Det Det _Adj
+1   _CONJ CONJ _Det
+1   _Noun Noun _CONJ
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _CC CC _Noun
+1   _Pause Pause _CC
+1   _Adj Adj _Pause
+1   _MD MD _Adj
+1   _PRP PRP _MD
+1   _Det Det _PRP
+1   _VBD VBD _Det
+1   _Pause Pause _VBD
+1   _Nouns Nouns _Pause
+1   _Noun Noun _Nouns
+1   _Poss_pron Poss_pron _Noun
+1   _VBN VBN _Poss_pron
+1   _VBG VBG _VBN
+1   _Pause Pause _VBG
+1   S2 Proper _Pause
+1   _Pause Pause
+1   _VBD VBD _Pause
+1   _PRP PRP _VBD
+1   _Wh_pro Wh_pro _PRP
+1   _VBP VBP _Wh_pro
+1   _Det Det _VBP
+1   _Pause Pause _Det
+1   S2 Adv _Pause
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Pause Pause
+1   _Punc Punc _Pause
+1   _Noun Noun _Punc
+1   _Proper Proper _Noun
+1   _CONJ CONJ _Proper
+1   _Noun Noun _CONJ
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Poss_pron Poss_pron _Adj
+1   _VBD VBD _Poss_pron
+1   _Nouns Nouns _VBD
+1   _Det Det _Nouns
+1   _CONJ CONJ _Det
+1   _Det Det _CONJ
+1   S2 _So _Det
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Noun Noun _Nouns
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _VBN VBN _Prep
+1   _Pause Pause _VBN
+1   _VBG VBG _Pause
+1   _CONJ CONJ _VBG
+1   _Noun Noun _CONJ
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Pause Pause _Prep
+1   _Noun Noun _Pause
+1   _VBD VBD _Noun
+1   _Noun Noun _VBD
+1   S2 Proper _Noun
+1   _Pause Pause
+1   _NNP NNP _Pause
+1   _Prep Prep _NNP
+1   _Noun Noun _Prep
+1   _VBD VBD _Noun
+1   _Pause Pause _VBD
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   S2 Adv _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _VB VB _Proper
+1   _Noun Noun _VB
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _ADV ADV _Noun
+1   _VBD VBD _ADV
+1   S2 PRP _VBD
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Adj Adj _Nouns
+1   _Prep Prep _Adj
+1   _VBN VBN _Prep
+1   _VB VB _VBN
+1   _TO TO _VB
+1   _Noun Noun _TO
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _ADV ADV _Prep
+1   _VBD VBD _ADV
+1   S2 PRP _VBD
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 VB _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Nouns Nouns _Noun
+1   _Poss_pron Poss_pron _Nouns
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Prep Prep _Pause
+1   _VBN VBN _Prep
+1   _Nouns Nouns _VBN
+1   _Poss_pron Poss_pron _Nouns
+1   _VB VB _Poss_pron
+1   _TO TO _VB
+1   _CC CC _TO
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VB VB _VBN
+1   _TO TO _VB
+1   _VBN VBN _TO
+1   _Noun Noun _VBN
+1   _AdjS AdjS _Noun
+1   _Det Det _AdjS
+1   _Prep Prep _Det
+1   _ADV ADV _Prep
+1   _VBD VBD _ADV
+1   S2 PRP _VBD
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   _Pause Pause _Noun
+1   _VBN VBN _Pause
+1   _CC CC _VBN
+1   _VBN VBN _CC
+1   _Det Det _VBN
+1   _Nouns Nouns _Det
+1   _Poss_pron Poss_pron _Nouns
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Adv Adv _Pause
+1   _VBN VBN _Adv
+1   _Noun Noun _VBN
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Nouns Nouns _Noun
+1   _Poss_pron Poss_pron _Nouns
+1   _VB VB _Poss_pron
+1   S2 TO _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Prep Prep _Pause
+1   _VBN VBN _Prep
+1   _Noun Noun _VBN
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Noun Noun _CC
+1   _Nouns Nouns _Noun
+1   _Poss_pron Poss_pron _Nouns
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Adj Adj _Pause
+1   _Nouns Nouns _Adj
+1   _Poss_pron Poss_pron _Nouns
+1   _CC CC _Poss_pron
+1   _VBN VBN _CC
+1   _Noun Noun _VBN
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Pause Pause _CC
+1   _Prep Prep _Pause
+1   _Noun Noun _Prep
+1   _Noun Noun _Noun
+1   _Poss_pron Poss_pron _Noun
+1   _CC CC _Poss_pron
+1   _Prep Prep _CC
+1   _VBN VBN _Prep
+1   _Noun Noun _VBN
+1   S2 Poss_pron _Noun
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Pause Pause _Nouns
+1   _Adv Adv _Pause
+1   _Prep Prep _Adv
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _OTH OTH _Adv
+1   _Det Det _OTH
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _OTH OTH _Pause
+1   _Det Det _OTH
+1   _Pause Pause _Det
+1   _OTH OTH _Pause
+1   S2 Det _OTH
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Noun Noun _Noun
+1   _OTH OTH _Noun
+1   _Adv Adv _OTH
+1   _Prep Prep _Adv
+1   S2 Nouns _Prep
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _VBG VBG _Noun
+1   _CONJ CONJ _VBG
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   _Noun Noun _VBP
+1   _OTH OTH _Noun
+1   S2 Noun _OTH
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Prep Prep _Noun
+1   _Noun Noun _Prep
+1   _Pause Pause _Noun
+1   _Proper Proper _Pause
+1   _Pause Pause _Proper
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _VBD VBD _Poss_pron
+1   _Noun Noun _VBD
+1   S2 Adv _Noun
+1   _Punc Punc
+1   S2 Noun _Punc
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Noun Noun _Noun
+1   S2 Wh_pro _Noun
+1   _Pause Pause
+1   _Wh_pro Wh_pro _Pause
+1   _Pause Pause _Wh_pro
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   _VBP VBP _Noun
+1   S2 PRP _VBP
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Pause Pause
+1   _Prep Prep _Pause
+1   _Noun Noun _Prep
+1   _Adv Adv _Noun
+1   _Pause Pause _Adv
+1   _Noun Noun _Pause
+1   _Adv Adv _Noun
+1   _OTH OTH _Adv
+1   _Noun Noun _OTH
+1   _Noun Noun _Noun
+1   _Pause Pause _Noun
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   S2 Qword _VB
+1   _Pause Pause
+1   _CC CC _Pause
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   S2 TO _Noun
+1   _Punc Punc
+1   _Adv Adv _Punc
+1   S2 Noun _Adv
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Proper Proper _Noun
+1   _Adj Adj _Proper
+1   _Pause Pause _Adj
+1   _Prep Prep _Pause
+1   _Noun Noun _Prep
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _TO TO _Noun
+1   _Adv Adv _TO
+1   _Pause Pause _Adv
+1   _Noun Noun _Pause
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   _PRP PRP _Pause
+1   _Pause Pause _PRP
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Noun Noun _OTH
+1   _Pause Pause _Noun
+1   _Noun Noun _Pause
+1   _Pause Pause _Noun
+1   S2 Noun _Pause
+1   _Punc Punc
+1   _ADV ADV _Punc
+1   _Noun Noun _ADV
+1   S2 Noun _Noun
+1   _Pause Pause
+1   S2 OTH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   _VBP VBP _Det
+1   _PRP PRP _VBP
+1   _Adv Adv _PRP
+1   _Pause Pause _Adv
+1   _Adv Adv _Pause
+1   _OTH OTH _Adv
+1   S2 Noun _OTH
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _CONJ CONJ _Det
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   S2 Noun _Det
+1   _Pause Pause
+1   _VBP VBP _Pause
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   _TO TO _Noun
+1   _VB VB _TO
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _Noun Noun _PRP
+1   _Det Det _Noun
+1   S2 Prep _Det
+1   _Qmark Qmark
+1   _PRP PRP _Qmark
+1   S2 Noun _PRP
+1   _Pause Pause
+1   _CONJ CONJ _Pause
+1   _Noun Noun _CONJ
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   _PRP PRP _VB
+1   _Pause Pause _PRP
+1   S2 UH _Pause
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   _Wh_pro Wh_pro _VB
+1   _Pause Pause _Wh_pro
+1   S2 Adv _Pause
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _Noun Noun _PRP
+1   _Noun Noun _Noun
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _TO TO _PRP
+1   _Adj Adj _TO
+1   _VB VB _Adj
+1   _OTH OTH _VB
+1   _VB VB _OTH
+1   S2 Adv _VB
+1   _Pause Pause
+1   _Adv Adv _Pause
+1   _Noun Noun _Adv
+1   S2 UH _Noun
+1   _OTH OTH
+1   S2 Adv _OTH
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   S2 CC _PRP
+1   _Punc Punc
+1   _Prep Prep _Punc
+1   _Noun Noun _Prep
+1   _Poss_pron Poss_pron _Noun
+1   _Noun Noun _Poss_pron
+1   _TO TO _Noun
+1   _Noun Noun _TO
+1   _PRP PRP _Noun
+1   _Prep Prep _PRP
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _Noun Noun _VB
+1   S2 UH _Noun
+1   _Punc Punc
+1   _Prep Prep _Punc
+1   _Noun Noun _Prep
+1   _Adj Adj _Noun
+1   _Poss_pron Poss_pron _Adj
+1   _Noun Noun _Poss_pron
+1   _Pause Pause _Noun
+1   S2 UH _Pause
+1   _Punc Punc
+1   _Noun Noun _Punc
+1   _Det Det _Noun
+1   _Det Det _Det
+1   _PRP PRP _Det
+1   _VB VB _PRP
+1   _Pause Pause _VB
+1   S2 UH _Pause
+1   _Qmark Qmark
+1   S2 Qword _Qmark
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Det Det _Det
+1   _Prep Prep _Det
+1   S2 VBG _Prep
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   S2 Noun _Adj
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _TO TO _PRP
+1   _Adj Adj _TO
+1   _ADV ADV _Adj
+1   S2 Noun _ADV
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _PRP PRP _Noun
+1   _VB VB _PRP
+1   S2 Qword _VB
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   S2 PRP _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _VBD VBD _Adj
+1   _OTH OTH _VBD
+1   _PRP PRP _OTH
+1   _Pause Pause _PRP
+1   _Adv Adv _Pause
+1   _Pause Pause _Adv
+1   _Adv Adv _Pause
+1   _VB VB _Adv
+1   _PRP PRP _VB
+1   S2 UH _PRP
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Poss_pron Poss_pron _Nouns
+1   _Noun Noun _Poss_pron
+1   _Adv Adv _Noun
+1   _VB VB _Adv
+1   _PRP PRP _VB
+1   _CONJ CONJ _PRP
+1   _Adv Adv _CONJ
+1   _Poss_pron Poss_pron _Adv
+1   S2 Adv _Poss_pron
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _VB VB _Noun
+1   _VB VB _VB
+1   _OTH OTH _VB
+1   _VB VB _OTH
+1   _CC CC _VB
+1   _Noun Noun _CC
+1   _Noun Noun _Noun
+1   S2 UH _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Pause Pause _Det
+1   _Noun Noun _Pause
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _CC CC _Nouns
+1   _Noun Noun _CC
+1   _VB VB _Noun
+1   _Adv Adv _VB
+1   _CC CC _Adv
+1   _Adv Adv _CC
+1   _PRP PRP _Adv
+1   _Noun Noun _PRP
+1   _OTH OTH _Noun
+1   S2 PRP _OTH
+1   _Pause Pause
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _ADV ADV _Nouns
+1   _CC CC _ADV
+1   _Pause Pause _CC
+1   S2 UH _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _VBP VBP _Det
+1   S2 Proper _VBP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _Noun Noun _Prep
+1   _Det Det _Noun
+1   _VerbT VerbT _Det
+1   S2 Proper _VerbT
+1   _Pause Pause
+1   _Adj Adj _Pause
+1   _VBP VBP _Adj
+1   _NNP NNP _VBP
+1   _TO TO _NNP
+1   S2 VBG _TO
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _Nouns Nouns _VB
+1   S2 VB _Nouns
+1   _Qmark Qmark
+1   _VBP VBP _Qmark
+1   _Proper Proper _VBP
+1   _Aux Aux _Proper
+1   S2 Wh_pro _Aux
+1   _Qmark Qmark
+1   _VB VB _Qmark
+1   _PRP PRP _VB
+1   _VB VB _PRP
+1   _Proper Proper _VB
+1   _Aux Aux _Proper
+1   S2 Wh_pro _Aux
+1   _Qmark Qmark
+1   _Noun Noun _Qmark
+1   _Det Det _Noun
+1   _VB VB _Det
+1   _NNP NNP _VB
+1   _Aux Aux _NNP
+1   S2 Qword _Aux
+1   _Qmark Qmark
+1   _NNP NNP _Qmark
+1   _TO TO _NNP
+1   _VBP VBP _TO
+1   _Proper Proper _VBP
+1   _VBG VBG _Proper
+1   _PRP PRP _VBG
+1   S2 VBP _PRP
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBP VBP _Prep
+1   _Nouns Nouns _VBP
+1   S2 Number _Nouns
+1   _Pause Pause
+1   _VBN VBN _Pause
+1   _VB VB _VBN
+1   _MD MD _VB
+1   S2 Proper _MD
+1   _Pause Pause
+1   _Proper Proper _Pause
+1   _Prep Prep _Proper
+1   _VBG VBG _Prep
+1   _VB VB _VBG
+1   _MD MD _VB
+1   S2 Proper _MD
+1   _Punc Punc
+1   _Proper Proper _Punc
+1   _VBS VBS _Proper
+1   _Wh_pro Wh_pro _VBS
+1   _Noun Noun _Wh_pro
+1   _Proper Proper _Noun
+1   _VBP VBP _Proper
+1   S2 PRP _VBP
+1   _Pause Pause
+1   _Aux Aux _Pause
+1   _Proper Proper _Aux
+1   _CC_or CC_or _Proper
+1   _VBS VBS _CC_or
+1   _Proper Proper _VBS
+1   S2 CC_either _Proper
+1   _Pause Pause
+1   _PRP PRP _Pause
+1   _CONJ CONJ _PRP
+1   _VB VB _CONJ
+1   _MD MD _VB
+1   _Proper Proper _MD
+1   _CC_nor CC_nor _Proper
+1   _Noun Noun _CC_nor
+1   _Proper Proper _Noun
+1   S2 CC_neither _Proper
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VBD VBD _VBN
+1   _Noun Noun _VBD
+1   _Proper Proper _Noun
+1   S2 Det _Proper
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBN VBN _Prep
+1   _VBN VBN _VBN
+1   _VB VB _VBN
+1   _MD MD _VB
+1   S2 Proper _MD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _Prep Prep _Poss_pron
+1   _VBD VBD _Prep
+1   _CC CC _VBD
+1   _NNP NNP _CC
+1   _TO TO _NNP
+1   _VBD VBD _TO
+1   S2 Proper _VBD
+1   _Pause Pause
+1   _VB VB _Pause
+1   _MD MD _VB
+1   _PRP PRP _MD
+1   _VB VB _PRP
+1   _PRP PRP _VB
+1   _CONJ CONJ _PRP
+1   _ADV ADV _CONJ
+1   _VB VB _ADV
+1   S2 PRP _VB
+1   _Punc Punc
+1   _VB VB _Punc
+1   _ADV ADV _VB
+1   S2 VB _ADV
+1   _Pause Pause
+1   _Nouns Nouns _Pause
+1   _Number Number _Nouns
+1   _Prep Prep _Number
+1   _VBG VBG _Prep
+1   _VBN VBN _VBG
+1   _VB VB _VBN
+1   _MD MD _VB
+1   S2 Proper _MD
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _VBP VBP _Det
+1   _Pause Pause _VBP
+1   _Nouns Nouns _Pause
+1   _Number Number _Nouns
+1   _Pause Pause _Number
+1   S2 Proper _Pause
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _Pause Pause _Det
+1   _Proper Proper _Pause
+1   _VBS VBS _Proper
+1   S2 Proper _VBS
+1   _Pause Pause
+1   _ADV ADV _Pause
+1   _VB VB _ADV
+1   _Proper Proper _VB
+1   _CC CC _Proper
+1   S2 Proper _CC
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Prep Prep _Det
+1   _VBG VBG _Prep
+1   _VBP VBP _VBG
+1   _PRP PRP _VBP
+1   _Wh_pro Wh_pro _PRP
+1   _VBS VBS _Wh_pro
+1   S2 PRP _VBS
+1   _Pause Pause
+1   _VBN VBN _Pause
+1   _VB VB _VBN
+1   _Noun Noun _VB
+1   _Det Det _Noun
+1   _Det Det _Det
+1   _VBN VBN _Det
+1   S2 Proper _VBN
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _Poss_pron Poss_pron _Noun
+1   _VBD VBD _Poss_pron
+1   _Det Det _VBD
+1   _Noun Noun _Det
+1   _Det Det _Noun
+1   _TO TO _Det
+1   _VBD VBD _TO
+1   _Noun Noun _VBD
+1   S2 Det _Noun
+1   _Pause Pause
+1   _VerbT VerbT _Pause
+1   _Proper Proper _VerbT
+1   _Pause Pause _Proper
+1   _VerbT VerbT _Pause
+1   _Noun Noun _VerbT
+1   _Det Det _Noun
+1   S2 Qword _Det
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Det Det _OTH
+1   _OTH OTH _Det
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _VBG VBG _OTH
+1   _OTH OTH _VBG
+1   _Adv Adv _OTH
+1   _Proper Proper _Adv
+1   _VBN VBN _Proper
+1   _Adv Adv _VBN
+1   _Det Det _Adv
+1   _CC CC _Det
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _CONJ CONJ _Noun
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _CC CC _Wh_pro
+1   _Proper Proper _CC
+1   _CONJ CONJ _Proper
+1   _Noun Noun _CONJ
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _TO TO _Det
+1   _Adv Adv _TO
+1   _Noun Noun _Adv
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Pause Pause _Wh_pro
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Noun Noun _Wh_pro
+1   _OTH OTH _Noun
+1   _Proper Proper _OTH
+1   _OTH OTH _Proper
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _CONJ CONJ _OTH
+1   _OTH OTH _CONJ
+1   _Adv Adv _OTH
+1   _OTH OTH _Adv
+1   _Adv Adv _OTH
+1   _Det Det _Adv
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _CC CC _Proper
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Proper Proper _Det
+1   _Proper Proper _Proper
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _Det Det _VB
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _TO TO _VB
+1   _Adv Adv _TO
+1   _VBD VBD _Adv
+1   _Nouns Nouns _VBD
+1   _Adj Adj _Nouns
+1   _Adj Adj _Adj
+1   _CC CC _Adj
+1   _Pause Pause _CC
+1   _Nouns Nouns _Pause
+1   _OTH OTH _Nouns
+1   _Proper Proper _OTH
+1   _VBG VBG _Proper
+1   _Noun Noun _VBG
+1   _TO TO _Noun
+1   _Adv Adv _TO
+1   _Det Det _Adv
+1   _VBD VBD _Det
+1   _Noun Noun _VBD
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   S2 Det _Noun
+1   _Pause Pause
+1   _Noun Noun _Pause
+1   _OTH OTH _Noun
+1   _Det Det _OTH
+1   _OTH OTH _Det
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _VBG VBG _OTH
+1   _OTH OTH _VBG
+1   _Adv Adv _OTH
+1   _Proper Proper _Adv
+1   _VBN VBN _Proper
+1   _Adv Adv _VBN
+1   _Det Det _Adv
+1   _CC CC _Det
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Noun Noun _Noun
+1   _CONJ CONJ _Noun
+1   _Proper Proper _CONJ
+1   _Det Det _Proper
+1   _Prep Prep _Det
+1   _PRP PRP _Prep
+1   _Noun Noun _PRP
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _CC CC _Wh_pro
+1   _Proper Proper _CC
+1   _CONJ CONJ _Proper
+1   _Noun Noun _CONJ
+1   _Adj Adj _Noun
+1   _Det Det _Adj
+1   _TO TO _Det
+1   _Adv Adv _TO
+1   _Noun Noun _Adv
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Pause Pause _Wh_pro
+1   _Noun Noun _Pause
+1   _CONJ CONJ _Noun
+1   _Noun Noun _CONJ
+1   _Det Det _Noun
+1   _Noun Noun _Det
+1   _Adv Adv _Noun
+1   _VBN VBN _Adv
+1   _Wh_pro Wh_pro _VBN
+1   _Noun Noun _Wh_pro
+1   _OTH OTH _Noun
+1   _Proper Proper _OTH
+1   _OTH OTH _Proper
+1   _Prep Prep _OTH
+1   _OTH OTH _Prep
+1   _Noun Noun _OTH
+1   _OTH OTH _Noun
+1   _CONJ CONJ _OTH
+1   _OTH OTH _CONJ
+1   _Adv Adv _OTH
+1   _OTH OTH _Adv
+1   _Adv Adv _OTH
+1   _Det Det _Adv
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _CC CC _Proper
+1   _Pause Pause _CC
+1   _Noun Noun _Pause
+1   _Det Det _Noun
+1   _Proper Proper _Det
+1   _Proper Proper _Proper
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _Det Det _VB
+1   _Noun Noun _Det
+1   _Proper Proper _Noun
+1   _Pause Pause _Proper
+1   _VB VB _Pause
+1   _TO TO _VB
+1   _Adv Adv _TO
+1   _VBD VBD _Adv
+1   _Nouns Nouns _VBD
+1   _Adj Adj _Nouns
+1   _Adj Adj _Adj
+1   _CC CC _Adj
+1   _Pause Pause _CC
+1   _Nouns Nouns _Pause
+1   _OTH OTH _Nouns
+1   _Proper Proper _OTH
+1   _VBG VBG _Proper
+1   _Noun Noun _VBG
+1   _TO TO _Noun
+1   _Adv Adv _TO
+1   _Det Det _Adv
+1   _VBD VBD _Det
+1   _Noun Noun _VBD
+1   _Proper Proper _Noun
+1   _Noun Noun _Proper
+1   S2 Det _Noun
+
+
