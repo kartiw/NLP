@@ -1,1 +1,1 @@
-# CMPT-825-NLP
+# Examples of NLP work
